@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{//How to calculate the time of the programe?}
+
+
+    \PYG{k+kt}{clock\PYGZus{}t} \PYG{n}{a} \PYG{o}{=} \PYG{n}{clock}\PYG{p}{();}
+    \PYG{n}{init1}\PYG{p}{();}
+    \PYG{k+kt}{clock\PYGZus{}t} \PYG{n}{b} \PYG{o}{=} \PYG{n}{clock}\PYG{p}{();}
+    \PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}普通筛： \PYGZpc{}f}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{,(}\PYG{k+kt}{double}\PYG{p}{)(}\PYG{n}{b}\PYG{o}{\PYGZhy{}}\PYG{n}{a}\PYG{p}{)}\PYG{o}{/}\PYG{n}{CLOCKS\PYGZus{}PER\PYGZus{}SEC}\PYG{p}{);}
+    \PYG{n}{a} \PYG{o}{=} \PYG{n}{clock}\PYG{p}{();}
+    \PYG{n}{init2}\PYG{p}{();}
+    \PYG{n}{b} \PYG{o}{=} \PYG{n}{clock}\PYG{p}{();}
+    \PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}欧拉筛： \PYGZpc{}f}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{,(}\PYG{k+kt}{double}\PYG{p}{)(}\PYG{n}{b}\PYG{o}{\PYGZhy{}}\PYG{n}{a}\PYG{p}{)}\PYG{o}{/}\PYG{n}{CLOCKS\PYGZus{}PER\PYGZus{}SEC}\PYG{p}{);}
+   \PYG{c+c1}{// CLOCKS\PYGZus{}PER\PYGZus{}SEC 是一秒钟的时钟数}
+\end{Verbatim}

@@ -1,0 +1,81 @@
+\BOOKMARK [1][-]{section.1}{1 数据结构}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{二叉树}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{堆}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{字符串}{section.1}% 4
+\BOOKMARK [3][-]{subsubsection.1.3.1}{1 Trie\(前缀树\)}{subsection.1.3}% 5
+\BOOKMARK [3][-]{subsubsection.1.3.2}{2\040KMP}{subsection.1.3}% 6
+\BOOKMARK [3][-]{subsubsection.1.3.3}{3 AC自动机}{subsection.1.3}% 7
+\BOOKMARK [3][-]{subsubsection.1.3.4}{4 KMP-KMP变形}{subsection.1.3}% 8
+\BOOKMARK [3][-]{subsubsection.1.3.5}{5 字符串hash}{subsection.1.3}% 9
+\BOOKMARK [3][-]{subsubsection.1.3.6}{6 后缀数组}{subsection.1.3}% 10
+\BOOKMARK [1][-]{section.2}{2 动态规划}{}% 11
+\BOOKMARK [2][-]{subsection.2.1}{1 最长上升子序列.cpp}{section.2}% 12
+\BOOKMARK [1][-]{section.3}{3 图论}{}% 13
+\BOOKMARK [2][-]{subsection.3.1}{DFS}{section.3}% 14
+\BOOKMARK [3][-]{subsubsection.3.1.1}{1.无向图的割点和桥}{subsection.3.1}% 15
+\BOOKMARK [3][-]{subsubsection.3.1.2}{2.无向图的双连通分量}{subsection.3.1}% 16
+\BOOKMARK [3][-]{subsubsection.3.1.3}{3有向图的强联通分量}{subsection.3.1}% 17
+\BOOKMARK [3][-]{subsubsection.3.1.4}{4 2-sat 问题}{subsection.3.1}% 18
+\BOOKMARK [2][-]{subsection.3.2}{LCA}{section.3}% 19
+\BOOKMARK [3][-]{subsubsection.3.2.1}{1\040DFS+RMQ}{subsection.3.2}% 20
+\BOOKMARK [3][-]{subsubsection.3.2.2}{2倍增算法}{subsection.3.2}% 21
+\BOOKMARK [2][-]{subsection.3.3}{Maxflow}{section.3}% 22
+\BOOKMARK [3][-]{subsubsection.3.3.1}{1\040Dinic}{subsection.3.3}% 23
+\BOOKMARK [3][-]{subsubsection.3.3.2}{2\040ISAP}{subsection.3.3}% 24
+\BOOKMARK [3][-]{subsubsection.3.3.3}{3\040MCMF}{subsection.3.3}% 25
+\BOOKMARK [2][-]{subsection.3.4}{二分图}{section.3}% 26
+\BOOKMARK [3][-]{subsubsection.3.4.1}{KM}{subsection.3.4}% 27
+\BOOKMARK [3][-]{subsubsection.3.4.2}{匈牙利算法}{subsection.3.4}% 28
+\BOOKMARK [2][-]{subsection.3.5}{最小生成树}{section.3}% 29
+\BOOKMARK [3][-]{subsubsection.3.5.1}{1 Krustral 卡鲁斯卡尔算法}{subsection.3.5}% 30
+\BOOKMARK [3][-]{subsubsection.3.5.2}{2 prim 算法}{subsection.3.5}% 31
+\BOOKMARK [3][-]{subsubsection.3.5.3}{3 最小限制生成树}{subsection.3.5}% 32
+\BOOKMARK [3][-]{subsubsection.3.5.4}{4 次小生成树}{subsection.3.5}% 33
+\BOOKMARK [2][-]{subsection.3.6}{最短路}{section.3}% 34
+\BOOKMARK [3][-]{subsubsection.3.6.1}{1\040Dijkstra}{subsection.3.6}% 35
+\BOOKMARK [3][-]{subsubsection.3.6.2}{2\040Bellman-ford}{subsection.3.6}% 36
+\BOOKMARK [3][-]{subsubsection.3.6.3}{3\040floyed}{subsection.3.6}% 37
+\BOOKMARK [1][-]{section.4}{4 数学}{}% 38
+\BOOKMARK [2][-]{subsection.4.1}{3 FWT模板.cpp}{section.4}% 39
+\BOOKMARK [2][-]{subsection.4.2}{FFT}{section.4}% 40
+\BOOKMARK [3][-]{subsubsection.4.2.1}{FFT}{subsection.4.2}% 41
+\BOOKMARK [3][-]{subsubsection.4.2.2}{kuangbin}{subsection.4.2}% 42
+\BOOKMARK [3][-]{subsubsection.4.2.3}{lrj}{subsection.4.2}% 43
+\BOOKMARK [2][-]{subsection.4.3}{template}{section.4}% 44
+\BOOKMARK [2][-]{subsection.4.4}{数论}{section.4}% 45
+\BOOKMARK [3][-]{subsubsection.4.4.1}{1 加法}{subsection.4.4}% 46
+\BOOKMARK [3][-]{subsubsection.4.4.2}{1 逆元}{subsection.4.4}% 47
+\BOOKMARK [3][-]{subsubsection.4.4.3}{2 减法}{subsection.4.4}% 48
+\BOOKMARK [3][-]{subsubsection.4.4.4}{3 乘法}{subsection.4.4}% 49
+\BOOKMARK [3][-]{subsubsection.4.4.5}{4 除法}{subsection.4.4}% 50
+\BOOKMARK [3][-]{subsubsection.4.4.6}{Euler}{subsection.4.4}% 51
+\BOOKMARK [3][-]{subsubsection.4.4.7}{lucas ，组合数}{subsection.4.4}% 52
+\BOOKMARK [3][-]{subsubsection.4.4.8}{miller-rabin-Pollard-rho}{subsection.4.4}% 53
+\BOOKMARK [3][-]{subsubsection.4.4.9}{快速数论变换}{subsection.4.4}% 54
+\BOOKMARK [3][-]{subsubsection.4.4.10}{欧拉筛和埃氏筛}{subsection.4.4}% 55
+\BOOKMARK [3][-]{subsubsection.4.4.11}{素性检测}{subsection.4.4}% 56
+\BOOKMARK [3][-]{subsubsection.4.4.12}{素数筛}{subsection.4.4}% 57
+\BOOKMARK [3][-]{subsubsection.4.4.13}{逆元打表}{subsection.4.4}% 58
+\BOOKMARK [2][-]{subsection.4.5}{矩阵快速幂.cpp}{section.4}% 59
+\BOOKMARK [2][-]{subsection.4.6}{自适应辛普森积分.cpp}{section.4}% 60
+\BOOKMARK [1][-]{section.5}{5 几何}{}% 61
+\BOOKMARK [2][-]{subsection.5.1}{2D}{section.5}% 62
+\BOOKMARK [3][-]{subsubsection.5.1.1}{PSLG}{subsection.5.1}% 63
+\BOOKMARK [3][-]{subsubsection.5.1.2}{二维几何模板}{subsection.5.1}% 64
+\BOOKMARK [3][-]{subsubsection.5.1.3}{二维凸包}{subsection.5.1}% 65
+\BOOKMARK [3][-]{subsubsection.5.1.4}{判断点是否在多边形内}{subsection.5.1}% 66
+\BOOKMARK [3][-]{subsubsection.5.1.5}{圆与多边形相交的面积}{subsection.5.1}% 67
+\BOOKMARK [3][-]{subsubsection.5.1.6}{求圆与直线的交点}{subsection.5.1}% 68
+\BOOKMARK [2][-]{subsection.5.2}{3D}{section.5}% 69
+\BOOKMARK [3][-]{subsubsection.5.2.1}{三维几何的基本操作}{subsection.5.2}% 70
+\BOOKMARK [3][-]{subsubsection.5.2.2}{三维几何的模版}{subsection.5.2}% 71
+\BOOKMARK [3][-]{subsubsection.5.2.3}{三维凸包}{subsection.5.2}% 72
+\BOOKMARK [3][-]{subsubsection.5.2.4}{维度转换为三维坐标}{subsection.5.2}% 73
+\BOOKMARK [1][-]{section.6}{6 其它}{}% 74
+\BOOKMARK [2][-]{subsection.6.1}{IO}{section.6}% 75
+\BOOKMARK [3][-]{subsubsection.6.1.1}{fread}{subsection.6.1}% 76
+\BOOKMARK [3][-]{subsubsection.6.1.2}{fread2}{subsection.6.1}% 77
+\BOOKMARK [3][-]{subsubsection.6.1.3}{保留小数}{subsection.6.1}% 78
+\BOOKMARK [3][-]{subsubsection.6.1.4}{读取整数}{subsection.6.1}% 79
+\BOOKMARK [2][-]{subsection.6.2}{c++中处理2进制的一些函数.cpp}{section.6}% 80
+\BOOKMARK [2][-]{subsection.6.3}{测量程序的运行时间.cpp}{section.6}% 81

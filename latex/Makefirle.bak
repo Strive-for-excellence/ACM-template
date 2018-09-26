@@ -1,0 +1,14 @@
+template.pdf: template.tex main b
+	./b
+	./main
+	xelatex -shell-escape template.tex
+	xelatex -shell-escape template.tex
+
+template.tex: main
+
+main: main.cpp
+	g++ main.cpp -o main
+b: b.cpp
+    g++ b.cpp -o b
+clean:
+rm template.* main

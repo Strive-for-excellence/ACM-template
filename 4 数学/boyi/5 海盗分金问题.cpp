@@ -1,3 +1,8 @@
+
+/*
+A Puzzle for Pirates HDU - 1538
+*/
+
 int  solve(int n,int m,int q){
         if(n <= 2*m+2){
             if(q == n){

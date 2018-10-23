@@ -1,9 +1,7 @@
-// ipsc 2003 G [hackenbush] (c) misof
-// #include <stdio.h>
-// #include <stdlib.h>
-// #include <string.h>
-#include <vector>
-#include <list>
+// N个点，M条边
+
+#include<bits/stdc++.h>
+using namespace std;
 #define min(x,y) ((x)<(y))?(x):(y)
 
 int Cases,N,M;
@@ -74,7 +72,8 @@ int GrundyValue(int v){
 
 int main(void){
   int v1,v2;
- 
+  // freopen("input.txt","r",stdin);
+  // freopen("out.txt","w+",stdout);
   cin >> Cases;
   while (Cases--) {
     // read graph dimensions
@@ -88,8 +87,9 @@ int main(void){
     // compute the SG value
     GV.clear(); for (int i=0;i<=N;i++) GV.push_back(-1);
     int result=GrundyValue(1);
-    // if (result) cout << "Alice\n"; else cout << "Bob\n"; // cout << result << "\n";
-    cout << result << "\n";
+    if (result) cout << "Alice\n"; else cout << "Bob\n"; // cout << result << "\n";
+
+    //cout << result << "\n";
   }
   return 0;
 }

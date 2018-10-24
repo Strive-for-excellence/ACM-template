@@ -93,3 +93,115 @@ int main(void){
   }
   return 0;
 }
+
+
+typedef pair<int,int> P;
+vector<P> edges;
+// 边连通分量
+const int maxn = 1000+100;
+// cosnt int maxm = 1e6+100
+int pre[maxn];
+int dfs_clock = 0;
+vector<int> G[maxn];
+vector<int> G2[maxn];
+bool Is[maxn];
+int low[maxn];
+
+void init(){
+    dfs_clock = 1;
+    rep(i,1,maxn) G[i].clear(),G2[i].clear();
+    me(low);
+    me(pre);
+    me(Is);
+}
+int dfs1(int u,int fa){
+    int lowu = pre[u] = ++dfs_clock;
+    int child = 0;
+    for(int i = 0;i < (int)G[u].size(); ++i){
+        int v = edges[G[u][i]].second;
+        if(!pre[v]){
+            child++;
+            int lowv = dfs1(v,u);
+            lowu = min(lowu,lowv);
+            if(lowv >= pre[u]){
+                // iscut[u]++;
+                Is[G[u][i]] = 1;
+            }
+        }
+        else if(pre[v] < pre[u] && v != fa){
+            lowu = min(lowu,pre[v]);
+        }
+    }
+
+    return low[u] = lowu;
+}
+// #define Debug
+
+int  belong[maxn];
+int  num[maxn];
+
+void dfs(int u,int be){
+     belong[u] = be;
+     for(int i = 0;i < (int)G[u].size(); ++i){
+        if(Is[G[u][i]])
+            continue;
+        int v = edges[G[u][i]].second;
+        if(!belong[v])
+            dfs(v,be);
+     }
+}
+int SG(int u,int fa){
+    int t = 0;
+    for(int i = 0;i < (int)G2[u].size(); ++i){
+        int v = G2[u][i];
+        if(v==fa) continue;
+        t ^= (SG(v,u)+1);
+    }
+    if(num[u]&1) t  ^= 1;
+    return t;
+}
+int main(void)
+{
+    int  n,m,k;
+    while(cin>>n){
+        int sum = 0;
+        while(n--){
+            init();
+            edges.clear();
+            me(belong);
+            me(num);
+            scanf("%d%d",&m,&k);
+            rep(i,0,k){
+                int u,v;
+                scanf("%d%d",&u,&v);
+                edges.push_back(P(u,v));
+                edges.push_back(P(v,u));
+                G[u].push_back(edges.size()-2);
+                G[v].push_back(edges.size()-1);
+            }
+            dfs1(1,-1);
+            
+            int tot = 0;
+            rep(i,1,m+1)
+                if(!belong[i])
+                    dfs(i,++tot);
+            // dfs(m+1,)
+            for(int i = 0;i < (int)edges.size(); i += 2){
+                int x = belong[edges[i].first];
+                int y = belong[edges[i].second];
+                    if(x != y)
+                          G2[x].Pb(y),G2[y].Pb(x);
+                    else
+                          num[x]++;
+            }
+
+           // cout<<SG(1,-1)<<endl;
+           sum ^= SG(1,-1);
+        }
+        if(sum)
+            puts("Sally");
+        else
+            puts("Harry");
+    }
+   return 0;
+}

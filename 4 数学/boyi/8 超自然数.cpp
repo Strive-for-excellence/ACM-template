@@ -1,4 +1,5 @@
-
+//[POJ-2931] 
+// 超自然数求解不平等博弈问题
 char ar[100];
 bool b[100];
 LL sureal(int n){

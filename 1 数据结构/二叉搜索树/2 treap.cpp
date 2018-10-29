@@ -1,3 +1,14 @@
+// UVA LA 5031
+/*
+给定n个节点m条边的无向图，每个节点都有一个整数权值。
+D X 删除ID为x的边
+Q X K 计算与节点X连通的节点中权值第k大的数
+C X K 把节点X的权值改为V
+
+
+*/
+
+
 #include <bits/stdc++.h>
 #define mem(ar,num) memset(ar,num,sizeof(ar))
 #define me(ar) memset(ar,0,sizeof(ar))

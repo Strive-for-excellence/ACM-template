@@ -1,5 +1,7 @@
 //https://ac.nowcoder.com/acm/contest/223/C
-
+//C	区区区间间间
+//$$ v_{l,r} = max(a_i-a_j) (l <= i,j <= r)$$
+//$$ \sum_{i}^{n} \sum_{j+1}^{n} v_{i,j}$$
 const int maxn = 1e5+100;
 int a[maxn];
 int s[maxn];// 单调栈

@@ -163,3 +163,92 @@ int main(void){
     }
     return 0;
 }
+// 同上
+#include <stdio.h>
+#include <string.h>
+
+int sum[10005][15][35],pre[10005][15][35];
+int mon[15] = {0,31,28,31,30,31,30,31,31,30,31,30,31};
+
+
+int leap(int x)
+{
+    if (x % 400 == 0) return 1;
+    if (x % 100 == 0) return 0;
+    if (x % 4 == 0) return 1;
+
+    return 0;
+}
+
+int check(int y,int m,int d)
+{
+    int num = 0;
+
+    while (y)
+    {
+        y % 10 == 9 ? ++num : num += 0;
+        y /= 10;
+    }
+
+    while (m)
+    {
+        m % 10 == 9 ? ++num : num += 0;
+        m /= 10;
+    }
+
+    while (d)
+    {
+        d % 10 == 9 ? ++num : num += 0;
+        d /= 10;
+    }
+
+    return num;
+}
+
+void init(int y1,int m1,int d1,int y2,int m2,int d2)
+{
+    int tmp = 0;
+
+
+    while (y1 != y2 || m1 != m2 || d1 != d2)
+    {
+        mon[2] = leap(y1) + 28;
+
+        pre[y1][m1][d1] = tmp;//tmp是到前一个日期显示的9的数量。
+
+        tmp += check(y1,m1,d1);
+
+        sum[y1][m1][d1] = tmp;//现在的日期显示的9的数量
+
+        if (++d1 > mon[m1])
+        {
+            d1 = 1;
+
+            if (++m1 > 12)
+            {
+                m1 = 1;
+                mon[2] = 28 + leap(++y1);
+            }
+        }
+    }
+}
+
+int main()
+{
+    int t;
+
+    scanf("%d",&t);
+
+    init(2000,1,1,10000,1,1);
+
+    while (t--)
+    {
+        int y1,m1,d1,y2,m2,d2;
+
+        scanf("%d%d%d%d%d%d",&y1,&m1,&d1,&y2,&m2,&d2);
+
+        printf("%d\n",sum[y2][m2][d2] - pre[y1][m1][d1]);//结束日期减去开始日期之前的那天，因为开始日期也要算的。
+    }
+
+    return 0;
+}

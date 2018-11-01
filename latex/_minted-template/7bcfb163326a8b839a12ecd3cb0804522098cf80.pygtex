@@ -30,6 +30,7 @@
 \PYG{k+kt}{bool} \PYG{n+nf}{dfs}\PYG{p}{(}\PYG{k+kt}{int} \PYG{n}{v}\PYG{p}{)\PYGZob{}}
 	\PYG{n}{used}\PYG{p}{[}\PYG{n}{v}\PYG{p}{]} \PYG{o}{=} \PYG{n+nb}{true}\PYG{p}{;}
 	\PYG{k}{for}\PYG{p}{(}\PYG{k+kt}{int} \PYG{n}{i} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{;}\PYG{n}{i} \PYG{o}{\PYGZlt{}} \PYG{n}{G}\PYG{p}{[}\PYG{n}{v}\PYG{p}{].}\PYG{n}{size}\PYG{p}{();} \PYG{o}{++}\PYG{n}{i}\PYG{p}{)\PYGZob{}}
+		\PYG{k}{if}\PYG{p}{(}\PYG{n}{used}\PYG{p}{[}\PYG{n}{u}\PYG{p}{])} \PYG{k}{continue}\PYG{p}{;} \PYG{n}{used}\PYG{p}{[}\PYG{n}{u}\PYG{p}{]} \PYG{o}{=} \PYG{n+nb}{true}\PYG{p}{;}
 		\PYG{k+kt}{int} \PYG{n}{u} \PYG{o}{=} \PYG{n}{G}\PYG{p}{[}\PYG{n}{v}\PYG{p}{][}\PYG{n}{i}\PYG{p}{],}\PYG{n}{w} \PYG{o}{=} \PYG{n}{match}\PYG{p}{[}\PYG{n}{u}\PYG{p}{];}
 		\PYG{k}{if}\PYG{p}{(}\PYG{n}{w} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{0}\PYG{o}{||!}\PYG{n}{used}\PYG{p}{[}\PYG{n}{w}\PYG{p}{]}\PYG{o}{\PYGZam{}\PYGZam{}}\PYG{n}{dfs}\PYG{p}{(}\PYG{n}{w}\PYG{p}{))\PYGZob{}}
 			\PYG{n}{match}\PYG{p}{[}\PYG{n}{v}\PYG{p}{]} \PYG{o}{=} \PYG{n}{u}\PYG{p}{;}

@@ -1,81 +1,96 @@
 \contentsline {section}{\numberline {1}1 数据结构}{1}{section.1}
-\contentsline {subsection}{\numberline {1.1}二叉树}{1}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}堆}{2}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}字符串}{3}{subsection.1.3}
-\contentsline {subsubsection}{\numberline {1.3.1}1 Trie(前缀树)}{3}{subsubsection.1.3.1}
-\contentsline {subsubsection}{\numberline {1.3.2}2 KMP}{4}{subsubsection.1.3.2}
-\contentsline {subsubsection}{\numberline {1.3.3}3 AC自动机}{5}{subsubsection.1.3.3}
-\contentsline {subsubsection}{\numberline {1.3.4}4 KMP-KMP变形}{6}{subsubsection.1.3.4}
-\contentsline {subsubsection}{\numberline {1.3.5}5 字符串hash}{8}{subsubsection.1.3.5}
-\contentsline {subsubsection}{\numberline {1.3.6}6 后缀数组}{9}{subsubsection.1.3.6}
-\contentsline {section}{\numberline {2}2 动态规划}{10}{section.2}
-\contentsline {subsection}{\numberline {2.1}1 最长上升子序列.cpp}{10}{subsection.2.1}
-\contentsline {section}{\numberline {3}3 图论}{10}{section.3}
-\contentsline {subsection}{\numberline {3.1}DFS}{10}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}1.无向图的割点和桥}{10}{subsubsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.2}2.无向图的双连通分量}{13}{subsubsection.3.1.2}
-\contentsline {subsubsection}{\numberline {3.1.3}3有向图的强联通分量}{14}{subsubsection.3.1.3}
-\contentsline {subsubsection}{\numberline {3.1.4}4 2-sat 问题}{15}{subsubsection.3.1.4}
-\contentsline {subsection}{\numberline {3.2}LCA}{16}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}1 DFS+RMQ}{16}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}2倍增算法}{18}{subsubsection.3.2.2}
-\contentsline {subsection}{\numberline {3.3}Maxflow}{19}{subsection.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}1 Dinic}{19}{subsubsection.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.2}2 ISAP}{22}{subsubsection.3.3.2}
-\contentsline {subsubsection}{\numberline {3.3.3}3 MCMF}{25}{subsubsection.3.3.3}
-\contentsline {subsection}{\numberline {3.4}二分图}{27}{subsection.3.4}
-\contentsline {subsubsection}{\numberline {3.4.1}KM}{27}{subsubsection.3.4.1}
-\contentsline {subsubsection}{\numberline {3.4.2}匈牙利算法}{28}{subsubsection.3.4.2}
-\contentsline {subsection}{\numberline {3.5}最小生成树}{29}{subsection.3.5}
-\contentsline {subsubsection}{\numberline {3.5.1}1 Krustral 卡鲁斯卡尔算法}{29}{subsubsection.3.5.1}
-\contentsline {subsubsection}{\numberline {3.5.2}2 prim 算法}{30}{subsubsection.3.5.2}
-\contentsline {subsubsection}{\numberline {3.5.3}3 最小限制生成树}{32}{subsubsection.3.5.3}
-\contentsline {subsubsection}{\numberline {3.5.4}4 次小生成树}{35}{subsubsection.3.5.4}
-\contentsline {subsection}{\numberline {3.6}最短路}{38}{subsection.3.6}
-\contentsline {subsubsection}{\numberline {3.6.1}1 Dijkstra}{38}{subsubsection.3.6.1}
-\contentsline {subsubsection}{\numberline {3.6.2}2 Bellman-ford}{41}{subsubsection.3.6.2}
-\contentsline {subsubsection}{\numberline {3.6.3}3 floyed}{43}{subsubsection.3.6.3}
-\contentsline {section}{\numberline {4}4 数学}{44}{section.4}
-\contentsline {subsection}{\numberline {4.1}3 FWT模板.cpp}{44}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}FFT}{44}{subsection.4.2}
-\contentsline {subsubsection}{\numberline {4.2.1}FFT}{44}{subsubsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2}kuangbin}{45}{subsubsection.4.2.2}
-\contentsline {subsubsection}{\numberline {4.2.3}lrj}{48}{subsubsection.4.2.3}
-\contentsline {subsection}{\numberline {4.3}template}{49}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}数论}{50}{subsection.4.4}
-\contentsline {subsubsection}{\numberline {4.4.1}1 加法}{50}{subsubsection.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.2}1 逆元}{51}{subsubsection.4.4.2}
-\contentsline {subsubsection}{\numberline {4.4.3}2 减法}{52}{subsubsection.4.4.3}
-\contentsline {subsubsection}{\numberline {4.4.4}3 乘法}{53}{subsubsection.4.4.4}
-\contentsline {subsubsection}{\numberline {4.4.5}4 除法}{53}{subsubsection.4.4.5}
-\contentsline {subsubsection}{\numberline {4.4.6}Euler}{54}{subsubsection.4.4.6}
-\contentsline {subsubsection}{\numberline {4.4.7}lucas ，组合数}{54}{subsubsection.4.4.7}
-\contentsline {subsubsection}{\numberline {4.4.8}miller-rabin-Pollard-rho}{55}{subsubsection.4.4.8}
-\contentsline {subsubsection}{\numberline {4.4.9}快速数论变换}{58}{subsubsection.4.4.9}
-\contentsline {subsubsection}{\numberline {4.4.10}欧拉筛和埃氏筛}{59}{subsubsection.4.4.10}
-\contentsline {subsubsection}{\numberline {4.4.11}素性检测}{59}{subsubsection.4.4.11}
-\contentsline {subsubsection}{\numberline {4.4.12}素数筛}{61}{subsubsection.4.4.12}
-\contentsline {subsubsection}{\numberline {4.4.13}逆元打表}{62}{subsubsection.4.4.13}
-\contentsline {subsection}{\numberline {4.5}矩阵快速幂.cpp}{62}{subsection.4.5}
-\contentsline {subsection}{\numberline {4.6}自适应辛普森积分.cpp}{63}{subsection.4.6}
-\contentsline {section}{\numberline {5}5 几何}{63}{section.5}
-\contentsline {subsection}{\numberline {5.1}2D}{63}{subsection.5.1}
-\contentsline {subsubsection}{\numberline {5.1.1}PSLG}{63}{subsubsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.2}二维几何模板}{65}{subsubsection.5.1.2}
-\contentsline {subsubsection}{\numberline {5.1.3}二维凸包}{68}{subsubsection.5.1.3}
-\contentsline {subsubsection}{\numberline {5.1.4}判断点是否在多边形内}{68}{subsubsection.5.1.4}
-\contentsline {subsubsection}{\numberline {5.1.5}圆与多边形相交的面积}{69}{subsubsection.5.1.5}
-\contentsline {subsubsection}{\numberline {5.1.6}求圆与直线的交点}{73}{subsubsection.5.1.6}
-\contentsline {subsection}{\numberline {5.2}3D}{73}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}三维几何的基本操作}{73}{subsubsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2}三维几何的模版}{75}{subsubsection.5.2.2}
-\contentsline {subsubsection}{\numberline {5.2.3}三维凸包}{77}{subsubsection.5.2.3}
-\contentsline {subsubsection}{\numberline {5.2.4}维度转换为三维坐标}{79}{subsubsection.5.2.4}
-\contentsline {section}{\numberline {6}6 其它}{79}{section.6}
-\contentsline {subsection}{\numberline {6.1}IO}{79}{subsection.6.1}
-\contentsline {subsubsection}{\numberline {6.1.1}fread}{79}{subsubsection.6.1.1}
-\contentsline {subsubsection}{\numberline {6.1.2}fread2}{80}{subsubsection.6.1.2}
-\contentsline {subsubsection}{\numberline {6.1.3}保留小数}{82}{subsubsection.6.1.3}
-\contentsline {subsubsection}{\numberline {6.1.4}读取整数}{83}{subsubsection.6.1.4}
-\contentsline {subsection}{\numberline {6.2}c++中处理2进制的一些函数.cpp}{83}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}测量程序的运行时间.cpp}{84}{subsection.6.3}
+\contentsline {subsection}{\numberline {1.1}二叉搜索树}{1}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}1 二叉树}{1}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.2}2 treap}{2}{subsubsection.1.1.2}
+\contentsline {subsubsection}{\numberline {1.1.3}3 伸展树}{5}{subsubsection.1.1.3}
+\contentsline {subsection}{\numberline {1.2}堆}{8}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}字符串}{9}{subsection.1.3}
+\contentsline {subsubsection}{\numberline {1.3.1}1 Trie(前缀树)}{9}{subsubsection.1.3.1}
+\contentsline {subsubsection}{\numberline {1.3.2}2 KMP}{10}{subsubsection.1.3.2}
+\contentsline {subsubsection}{\numberline {1.3.3}3 AC自动机}{11}{subsubsection.1.3.3}
+\contentsline {subsubsection}{\numberline {1.3.4}4 KMP-KMP变形}{13}{subsubsection.1.3.4}
+\contentsline {subsubsection}{\numberline {1.3.5}5 字符串hash}{14}{subsubsection.1.3.5}
+\contentsline {subsubsection}{\numberline {1.3.6}6 后缀数组}{15}{subsubsection.1.3.6}
+\contentsline {section}{\numberline {2}2 动态规划}{16}{section.2}
+\contentsline {subsection}{\numberline {2.1}1 最长上升子序列.cpp}{16}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}1 树的重心}{17}{subsection.2.2}
+\contentsline {section}{\numberline {3}3 图论}{17}{section.3}
+\contentsline {subsection}{\numberline {3.1}DFS}{17}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}1.无向图的割点和桥}{17}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}2.无向图的双连通分量}{20}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}3有向图的强联通分量}{21}{subsubsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.4}4 2-sat 问题}{22}{subsubsection.3.1.4}
+\contentsline {subsection}{\numberline {3.2}LCA}{23}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}1 DFS+RMQ}{23}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}2倍增算法}{25}{subsubsection.3.2.2}
+\contentsline {subsection}{\numberline {3.3}Maxflow}{26}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}1 Dinic}{26}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}2 ISAP}{29}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3}3 MCMF}{32}{subsubsection.3.3.3}
+\contentsline {subsection}{\numberline {3.4}二分图}{34}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}1 匈牙利算法}{34}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}2 KM}{35}{subsubsection.3.4.2}
+\contentsline {subsubsection}{\numberline {3.4.3}3 一般图最大匹配}{37}{subsubsection.3.4.3}
+\contentsline {subsection}{\numberline {3.5}最小生成树}{39}{subsection.3.5}
+\contentsline {subsubsection}{\numberline {3.5.1}1 Krustral 卡鲁斯卡尔算法}{39}{subsubsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.2}2 prim 算法}{40}{subsubsection.3.5.2}
+\contentsline {subsubsection}{\numberline {3.5.3}3 最小限制生成树}{41}{subsubsection.3.5.3}
+\contentsline {subsubsection}{\numberline {3.5.4}4 次小生成树}{44}{subsubsection.3.5.4}
+\contentsline {subsection}{\numberline {3.6}最短路}{47}{subsection.3.6}
+\contentsline {subsubsection}{\numberline {3.6.1}1 Dijkstra}{47}{subsubsection.3.6.1}
+\contentsline {subsubsection}{\numberline {3.6.2}2 Bellman-ford}{50}{subsubsection.3.6.2}
+\contentsline {subsubsection}{\numberline {3.6.3}3 floyed}{52}{subsubsection.3.6.3}
+\contentsline {section}{\numberline {4}4 数学}{53}{section.4}
+\contentsline {subsection}{\numberline {4.1}3 FWT模板.cpp}{53}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}BM.cpp}{54}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}FFT}{56}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}FFT}{56}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}kuangbin}{57}{subsubsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3}lrj}{59}{subsubsection.4.3.3}
+\contentsline {subsection}{\numberline {4.4}template}{61}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}博弈}{62}{subsection.4.5}
+\contentsline {subsubsection}{\numberline {4.5.1}2.威佐夫博弈}{62}{subsubsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.2}3 Nim 积}{62}{subsubsection.4.5.2}
+\contentsline {subsubsection}{\numberline {4.5.3}4 K倍动态减法}{64}{subsubsection.4.5.3}
+\contentsline {subsubsection}{\numberline {4.5.4}5 海盗分金问题}{64}{subsubsection.4.5.4}
+\contentsline {subsubsection}{\numberline {4.5.5}6 Green Hackbush}{65}{subsubsection.4.5.5}
+\contentsline {subsubsection}{\numberline {4.5.6}7 反nim 博弈}{69}{subsubsection.4.5.6}
+\contentsline {subsubsection}{\numberline {4.5.7}8 超自然数}{70}{subsubsection.4.5.7}
+\contentsline {subsection}{\numberline {4.6}数论}{71}{subsection.4.6}
+\contentsline {subsubsection}{\numberline {4.6.1}1 加法}{71}{subsubsection.4.6.1}
+\contentsline {subsubsection}{\numberline {4.6.2}1 逆元}{71}{subsubsection.4.6.2}
+\contentsline {subsubsection}{\numberline {4.6.3}2 减法}{72}{subsubsection.4.6.3}
+\contentsline {subsubsection}{\numberline {4.6.4}3 乘法}{73}{subsubsection.4.6.4}
+\contentsline {subsubsection}{\numberline {4.6.5}4 除法}{73}{subsubsection.4.6.5}
+\contentsline {subsubsection}{\numberline {4.6.6}5.蒙哥马利快速模}{74}{subsubsection.4.6.6}
+\contentsline {subsubsection}{\numberline {4.6.7}Euler}{75}{subsubsection.4.6.7}
+\contentsline {subsubsection}{\numberline {4.6.8}lucas ，组合数}{76}{subsubsection.4.6.8}
+\contentsline {subsubsection}{\numberline {4.6.9}miller-rabin-Pollard-rho}{77}{subsubsection.4.6.9}
+\contentsline {subsubsection}{\numberline {4.6.10}快速数论变换}{79}{subsubsection.4.6.10}
+\contentsline {subsubsection}{\numberline {4.6.11}欧拉筛和埃氏筛}{81}{subsubsection.4.6.11}
+\contentsline {subsubsection}{\numberline {4.6.12}素性检测}{81}{subsubsection.4.6.12}
+\contentsline {subsubsection}{\numberline {4.6.13}素数筛}{83}{subsubsection.4.6.13}
+\contentsline {subsubsection}{\numberline {4.6.14}逆元打表}{84}{subsubsection.4.6.14}
+\contentsline {subsection}{\numberline {4.7}矩阵快速幂.cpp}{84}{subsection.4.7}
+\contentsline {subsection}{\numberline {4.8}自适应辛普森积分.cpp}{85}{subsection.4.8}
+\contentsline {section}{\numberline {5}5 几何}{85}{section.5}
+\contentsline {subsection}{\numberline {5.1}2D}{85}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}PSLG}{85}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}二维几何模板}{87}{subsubsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.3}二维凸包}{90}{subsubsection.5.1.3}
+\contentsline {subsubsection}{\numberline {5.1.4}判断点是否在多边形内}{90}{subsubsection.5.1.4}
+\contentsline {subsubsection}{\numberline {5.1.5}圆与多边形相交的面积}{90}{subsubsection.5.1.5}
+\contentsline {subsubsection}{\numberline {5.1.6}求圆与直线的交点}{95}{subsubsection.5.1.6}
+\contentsline {subsection}{\numberline {5.2}3D}{95}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}三维几何的基本操作}{95}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}三维几何的模版}{96}{subsubsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.3}三维凸包}{99}{subsubsection.5.2.3}
+\contentsline {subsubsection}{\numberline {5.2.4}维度转换为三维坐标}{101}{subsubsection.5.2.4}
+\contentsline {section}{\numberline {6}6 其它}{101}{section.6}
+\contentsline {subsection}{\numberline {6.1}IO}{101}{subsection.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}fread}{101}{subsubsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.2}fread2}{102}{subsubsection.6.1.2}
+\contentsline {subsubsection}{\numberline {6.1.3}保留小数}{104}{subsubsection.6.1.3}
+\contentsline {subsubsection}{\numberline {6.1.4}读取整数}{104}{subsubsection.6.1.4}
+\contentsline {subsection}{\numberline {6.2}c++中处理2进制的一些函数.cpp}{105}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}测量程序的运行时间.cpp}{106}{subsection.6.3}

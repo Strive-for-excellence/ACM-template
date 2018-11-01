@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2018.9.13)  26 SEP 2018 20:21
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2018.10.14)  1 NOV 2018 16:21
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1366,13 +1366,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
 te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/1 数据结构/二叉搜索树/二叉树.cpp\", \"rb\"); hasher.update(f.read()); 
-f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@ha
-sh\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlette
-r\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+zuzxy/t3/ACM-template/1 数据结构/二叉搜索树/1 二叉树.cpp\", \"rb\"); hasher.update(f.read()
+); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted
+@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatle
+tter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
  (./template.mintedmd5)
-(./_minted-template/5630a7d7190f9a4d14c9861baa9d4cf26d56bbe6.pygtex
+(./_minted-template/7ee92e033d7c93ed7230ff27a89032525e544f2c.pygtex
 
 LaTeX Font Warning: Font shape `EU1/AdobeFangsongStd-Regular.otf(0)/m/it' undef
 ined
@@ -1386,774 +1386,931 @@ LaTeX Font Info:    Font shape `EU1/lmtt/bx/n' in size <10> not available
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
 te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/1 数据结构/基础数据结构/堆.cpp\", \"rb\"); hasher.update(f.read()); f
-.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@has
-h\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter
-\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+zuzxy/t3/ACM-template/1 数据结构/二叉搜索树/2 treap.cpp\", \"rb\"); hasher.update(f.read
+()); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\mint
+ed@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeat
+letter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
  (./template.mintedmd5)
-(./_minted-template/b467d5a835b76e629322b6dc9e54c539df4c2fb3.pygtex)
+(./_minted-template/0999aacfc64863ba511575b11ab1cdaabc1293b2.pygtex [2]
+[3] [4])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
 te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/1 数据结构/字符串/1 Trie(前缀树).cpp\", \"rb\"); hasher.update(f.rea
-d()); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\min
-ted@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makea
-tletter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+zuzxy/t3/ACM-template/1 数据结构/二叉搜索树/3 伸展树.cpp\", \"rb\"); hasher.update(f.read()
+); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted
+@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatle
+tter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
-
-(./template.mintedmd5)
-(./_minted-template/5a3d299b5a59e81c66fe568fa28348e1a12eb3fe.pygtex [2]
-[3])
+ (./template.mintedmd5)
+(./_minted-template/a7956a1ae0e86dc4fe4814c00effa2e992269e33.pygtex [5]
+[6] [7])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
 te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/1 数据结构/字符串/2 KMP.cpp\", \"rb\"); hasher.update(f.read()); 
+zuzxy/t3/ACM-template/1 数据结构/基础数据结构/堆.cpp\", \"rb\"); hasher.update(f.read()); 
 f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@ha
 sh\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlette
 r\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
  (./template.mintedmd5)
-(./_minted-template/5b3653198a47826e80287a3137e04a4e2bc3eb7b.pygtex [4])
+(./_minted-template/c30393a27b8b488425c0b85bce792a18e12adca3.pygtex [8])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
 te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/1 数据结构/字符串/3 AC自动机.cpp\", \"rb\"); hasher.update(f.read())
-; f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@
-hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlet
-ter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+zuzxy/t3/ACM-template/1 数据结构/字符串/1 Trie(前缀树).cpp\", \"rb\"); hasher.update(f.re
+ad()); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\mi
+nted@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\make
+atletter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/4ad7dd199c9bb44179c42ef8044da687774c7722.pygtex [5])
+(./_minted-template/e4bbceae533f69911bdf9b8833e202c5b21e0917.pygtex [9])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
 te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/1 数据结构/字符串/4 KMP-KMP变形.cpp\", \"rb\"); hasher.update(f.rea
-d()); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\min
-ted@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makea
-tletter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
-
-(./template.mintedmd5)
-(./_minted-template/cea93faf3a4d3b825fe78874e165364400f6384e.pygtex [6]
-[7])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/1 数据结构/字符串/5 字符串hash.cpp\", \"rb\"); hasher.update(f.read(
-)); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minte
-d@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatl
-etter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
- (./template.mintedmd5)
-(./_minted-template/a1d3d317d7e8391b561c5c8e96c2deb0fa844345.pygtex [8])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/1 数据结构/字符串/6 后缀数组.cpp\", \"rb\"); hasher.update(f.read());
+zuzxy/t3/ACM-template/1 数据结构/字符串/2 KMP.cpp\", \"rb\"); hasher.update(f.read());
  f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@h
 ash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlett
 er\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/a1187b6adc3c8374f8b2ff635ac9028fcc6ce11b.pygtex [9])
+(./_minted-template/e55cba1548d1f3177f2f129a6c78053c571daba9.pygtex [10])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
 te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/2 动态规划/1 最长上升子序列.cpp\", \"rb\"); hasher.update(f.read()); 
-f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@ha
-sh\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlette
-r\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
-
-(./template.mintedmd5)
-(./_minted-template/2b502b84bace49e67261c31e1d53151bb3624615.pygtex)
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/3 图论/DFS/1.无向图的割点和桥.cpp\", \"rb\"); hasher.update(f.read()
+zuzxy/t3/ACM-template/1 数据结构/字符串/3 AC自动机.cpp\", \"rb\"); hasher.update(f.read()
 ); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted
 @hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatle
 tter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/e39227468b2a607aa4b5f9c7a9e5dcab17bfddc0.pygtex [10]
-[11] [12])
+(./_minted-template/0c974e8395928563d8d90530bfae96f3b0da9dbe.pygtex [11]
+[12])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
 te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/3 图论/DFS/2.无向图的双连通分量.cpp\", \"rb\"); hasher.update(f.read(
-)); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minte
-d@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatl
-etter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
- (./template.mintedmd5)
-(./_minted-template/77ab2ee5745f717082e239b17adc5ef965085bc8.pygtex [13])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/3 图论/DFS/3有向图的强联通分量.cpp\", \"rb\"); hasher.update(f.read()
-); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted
-@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatle
-tter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
-
-(./template.mintedmd5)
-(./_minted-template/8afbd5c8fb0761a344f4d1ae4199f19cd5296722.pygtex [14])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/3 图论/DFS/4 2-sat 问题.cpp\", \"rb\"); hasher.update(f.read()
-); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted
-@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatle
-tter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
-
-(./template.mintedmd5)
-(./_minted-template/d1160b3a2c6d1809e27ea2a50f9cf6f194f2e662.pygtex [15])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/3 图论/LCA/1 DFS+RMQ.cpp\", \"rb\"); hasher.update(f.read())
-; f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@
-hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlet
-ter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
-
-(./template.mintedmd5)
-(./_minted-template/004d767a5825493a97d032d583753e7ab964c9df.pygtex [16])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/3 图论/LCA/2倍增算法.cpp\", \"rb\"); hasher.update(f.read()); f.
-close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash
-\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\
-" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
-
-(./template.mintedmd5)
-(./_minted-template/009d5ca90e08d1c9ead94c268c93db14f9007539.pygtex [17]
-[18])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/3 图论/Maxflow/1 Dinic.cpp\", \"rb\"); hasher.update(f.read(
-)); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minte
-d@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatl
-etter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
- (./template.mintedmd5)
-(./_minted-template/10bb0b41b31dfc2355d04d32a8d611629ea0a041.pygtex [19]
-[20] [21])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/3 图论/Maxflow/2 ISAP.cpp\", \"rb\"); hasher.update(f.read()
-); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted
-@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatle
-tter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
- (./template.mintedmd5)
-(./_minted-template/07e7245682edff1b8f33262d45969b66a99602b4.pygtex [22]
-[23] [24])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/3 图论/Maxflow/3 MCMF.cpp\", \"rb\"); hasher.update(f.read()
-); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted
-@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatle
-tter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
- (./template.mintedmd5)
-(./_minted-template/730ecf4924d017cf83be51ba2d0823b253b065ea.pygtex [25]
-[26])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/3 图论/二分图/KM.cpp\", \"rb\"); hasher.update(f.read()); f.clo
-se(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\" 
-+ chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\" +
- macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
- (./template.mintedmd5)
-(./_minted-template/018351bec9428639b783e22daa7870a41912070f.pygtex [27])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/3 图论/二分图/匈牙利算法.cpp\", \"rb\"); hasher.update(f.read()); f.
-close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash
-\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\
-" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
-
-(./template.mintedmd5)
-(./_minted-template/da1849a4b6912b16277c0bab519802db672d760f.pygtex [28])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/3 图论/最小生成树/1 Krustral 卡鲁斯卡尔算法.cpp\", \"rb\"); hasher.updat
-e(f.read()); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\ed
-ef\\minted@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"
-\\makeatletter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...exec
-uted.
-
-
-(./template.mintedmd5)
-(./_minted-template/6e33f2889291f6d44cd667a3e7661d0bd6ad7f8e.pygtex [29])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/3 图论/最小生成树/2 prim 算法.cpp\", \"rb\"); hasher.update(f.read(
-)); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minte
-d@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatl
-etter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
-
-(./template.mintedmd5)
-(./_minted-template/7cfcc8b41e571fbfa1122befafe8a589469aeeee.pygtex [30]
-[31])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/3 图论/最小生成树/3 最小限制生成树.cpp\", \"rb\"); hasher.update(f.read(
-)); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minte
-d@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatl
-etter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
- (./template.mintedmd5)
-(./_minted-template/a491e9011ebc996f668a0aff28640a55b51b8c1a.pygtex [32]
-[33] [34])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/3 图论/最小生成树/4 次小生成树.cpp\", \"rb\"); hasher.update(f.read())
-; f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@
-hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlet
-ter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
- (./template.mintedmd5)
-(./_minted-template/5ccd7bc2c780b796f3c70f0993735b895c6dae9b.pygtex [35]
-[36] [37])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/3 图论/最短路/1 Dijkstra.cpp\", \"rb\"); hasher.update(f.read()
-); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted
-@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatle
-tter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
- (./template.mintedmd5)
-(./_minted-template/0665ea1b1f7579ac21e90c9320020db1e9263a7f.pygtex [38]
-[39] [40])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/3 图论/最短路/2 Bellman-ford.cpp\", \"rb\"); hasher.update(f.re
+zuzxy/t3/ACM-template/1 数据结构/字符串/4 KMP-KMP变形.cpp\", \"rb\"); hasher.update(f.re
 ad()); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\mi
 nted@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\make
 atletter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
  (./template.mintedmd5)
-(./_minted-template/26451e3ef903230eeb60e1a3deb208fcdc607783.pygtex [41])
+(./_minted-template/6eae55f1684889e47fceb7623b744cdc5e7d4702.pygtex [13])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
 te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/3 图论/最短路/3 floyed.cpp\", \"rb\"); hasher.update(f.read());
- f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@h
-ash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlett
-er\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+zuzxy/t3/ACM-template/1 数据结构/字符串/5 字符串hash.cpp\", \"rb\"); hasher.update(f.read
+()); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\mint
+ed@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeat
+letter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/1a01598a5320d90320e6f5dc69f861fca7b5a831.pygtex [42]
-[43])
+(./_minted-template/e56881b7e4b7326dbb21f6ff32a303612d98992c.pygtex [14])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
 te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/4 数学/3 FWT模板.cpp\", \"rb\"); hasher.update(f.read()); f.cl
-ose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\"
- + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\" 
-+ macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
- (./template.mintedmd5)
-(./_minted-template/aef5717fe2a4e62310f72e3b8feeac94656dfa41.pygtex)
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/4 数学/FFT/FFT.cpp\", \"rb\"); hasher.update(f.read()); f.cl
-ose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\"
- + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\" 
-+ macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
-
-(./template.mintedmd5)
-(./_minted-template/5818d57fbf959cc22e9c0da003e19a495b87ac45.pygtex [44])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/4 数学/FFT/kuangbin.cpp\", \"rb\"); hasher.update(f.read());
- f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@h
-ash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlett
-er\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
-
-(./template.mintedmd5)
-(./_minted-template/f476d93836a761f956b8a9b32d6c2921888aaf01.pygtex [45]
-[46] [47])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/4 数学/FFT/lrj.cpp\", \"rb\"); hasher.update(f.read()); f.cl
-ose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\"
- + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\" 
-+ macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
- (./template.mintedmd5)
-(./_minted-template/9aa4f38aa5f6cb1a70f6b63ba3b51fe947d6df31.pygtex [48])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/4 数学/Lagrange-poly/template.cpp\", \"rb\"); hasher.update(
-f.read()); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef
-\\minted@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\
-makeatletter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...execut
-ed.
-
-
-(./template.mintedmd5)
-(./_minted-template/2689df0238d60e4e6b7b7f592fed691b5ea1e5df.pygtex [49])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/4 数学/数论/1 加法.cpp\", \"rb\"); hasher.update(f.read()); f.cl
-ose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\"
- + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\" 
-+ macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
-
-(./template.mintedmd5)
-(./_minted-template/655598c29b2daaeff8fcbd6940380bbd9cf184ac.pygtex [50])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/4 数学/数论/1 逆元.cpp\", \"rb\"); hasher.update(f.read()); f.cl
-ose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\"
- + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\" 
-+ macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
-
-(./template.mintedmd5)
-(./_minted-template/8759b1c314050eb0a55fbe013660fbe5a9e21cc3.pygtex [51])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/4 数学/数论/2 减法.cpp\", \"rb\"); hasher.update(f.read()); f.cl
-ose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\"
- + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\" 
-+ macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
-
-(./template.mintedmd5)
-(./_minted-template/60bfd6a9d4d4ada4e6783680a076b3932b11f865.pygtex [52])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/4 数学/数论/3 乘法.cpp\", \"rb\"); hasher.update(f.read()); f.cl
-ose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\"
- + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\" 
-+ macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
-
-(./template.mintedmd5)
-(./_minted-template/cc824887e19dbad31e8be613f23b0b78bf2f5328.pygtex)
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/4 数学/数论/4 除法.cpp\", \"rb\"); hasher.update(f.read()); f.cl
-ose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\"
- + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\" 
-+ macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
-
-(./template.mintedmd5)
-(./_minted-template/98a6fa614107c4c1cd262e21ec15695c0e470f87.pygtex)
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/4 数学/数论/Euler.cpp\", \"rb\"); hasher.update(f.read()); f.c
-lose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\
-" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\"
- + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
-
-(./template.mintedmd5)
-(./_minted-template/aff974cc1ad15281da92c0a6293a58de446eb495.pygtex [53])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/4 数学/数论/lucas ，组合数.cpp\", \"rb\"); hasher.update(f.read())
+zuzxy/t3/ACM-template/1 数据结构/字符串/6 后缀数组.cpp\", \"rb\"); hasher.update(f.read())
 ; f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@
 hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlet
 ter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/59284da05de7020dd309caed6e21de9c8253196a.pygtex [54])
+(./_minted-template/7e04934eb59f5c733ff742799f4d5f7662ef99dc.pygtex [15])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
 te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/4 数学/数论/miller-rabin-Pollard-rho.cpp\", \"rb\"); hasher.up
-date(f.read()); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\
-\edef\\minted@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write
-(\"\\makeatletter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...e
-xecuted.
-
-
-(./template.mintedmd5)
-(./_minted-template/bfd3909b5adba3395f27ea8137cc3c6dae32f029.pygtex [55]
-[56])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/4 数学/数论/快速数论变换.cpp\", \"rb\"); hasher.update(f.read()); f.
-close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash
-\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\
-" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
- (./template.mintedmd5)
-(./_minted-template/5eedbe3640991ba19fa4b6116f7210aa8adab5f4.pygtex [57]
-[58])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/4 数学/数论/欧拉筛和埃氏筛.cpp\", \"rb\"); hasher.update(f.read()); f
-.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@has
-h\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter
-\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
- (./template.mintedmd5)
-(./_minted-template/38aa8da11e3a093c4c3cc90add0fa711c7a00d0d.pygtex)
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/4 数学/数论/素性检测.cpp\", \"rb\"); hasher.update(f.read()); f.cl
-ose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\"
- + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\" 
-+ macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
-
-(./template.mintedmd5)
-(./_minted-template/b1861f275150b7d4c7d08df15922d0dd78241995.pygtex [59]
-Missing character: There is no ≡ in font [lmmono10-italic]!
-Missing character: There is no ≡ in font [lmmono10-italic]!
-
-[60])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/4 数学/数论/素数筛.cpp\", \"rb\"); hasher.update(f.read()); f.clo
-se(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\" 
-+ chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\" +
- macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
- (./template.mintedmd5)
-(./_minted-template/6d1ab55c9317207eada66fe0df4c51abc18681fc.pygtex [61])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/4 数学/数论/逆元打表.cpp\", \"rb\"); hasher.update(f.read()); f.cl
-ose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\"
- + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\" 
-+ macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
-
-(./template.mintedmd5)
-(./_minted-template/af830fb674201c510b94224cd8db53b1290b7658.pygtex)
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/4 数学/矩阵快速幂.cpp\", \"rb\"); hasher.update(f.read()); f.clos
-e(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\" +
- chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\" + 
-macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
-
-(./template.mintedmd5)
-(./_minted-template/f80d40d1d54adfadd43aa1c7403387d34fd76e07.pygtex [62])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/4 数学/自适应辛普森积分.cpp\", \"rb\"); hasher.update(f.read()); f.c
-lose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\
-" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\"
- + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
-
-(./template.mintedmd5)
-(./_minted-template/6497b7b83e08ceb2e5d8066fc1b6e4d8abd582fc.pygtex)
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/5 几何/2D/PSLG.cpp\", \"rb\"); hasher.update(f.read()); f.cl
-ose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\"
- + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\" 
-+ macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
-
-(./template.mintedmd5)
-(./_minted-template/c498651669cdda61874675b19cb46618c6efa3f1.pygtex [63]
-[64])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/5 几何/2D/二维几何模板.cpp\", \"rb\"); hasher.update(f.read()); f.
-close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash
-\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\
-" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
- (./template.mintedmd5)
-(./_minted-template/e59f92a1386b98058e5f765e7abe079b57a63642.pygtex [65]
-[66] [67])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/5 几何/2D/二维凸包.cpp\", \"rb\"); hasher.update(f.read()); f.cl
-ose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\"
- + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\" 
-+ macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
- (./template.mintedmd5)
-(./_minted-template/baa130e1756e2cac685ecfb2413fa5fbf3f9019f.pygtex)
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/5 几何/2D/判断点是否在多边形内.cpp\", \"rb\"); hasher.update(f.read())
-; f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@
-hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlet
-ter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
-
-(./template.mintedmd5)
-(./_minted-template/89a18de27a1f0f83b905ef5618adea5241c0e7c2.pygtex [68])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/5 几何/2D/圆与多边形相交的面积.cpp\", \"rb\"); hasher.update(f.read())
-; f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@
-hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlet
-ter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
-
-(./template.mintedmd5)
-(./_minted-template/bebcf8fd7e7e5e7ef1536c6173c6fd7978ef3eef.pygtex [69]
-[70] [71] [72])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/5 几何/2D/求圆与直线的交点.cpp\", \"rb\"); hasher.update(f.read()); 
-f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@ha
-sh\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlette
-r\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
- (./template.mintedmd5)
-(./_minted-template/db2188f7cea00141e1aef24d5e88ed12aa42f524.pygtex)
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/5 几何/3D/三维几何的基本操作.cpp\", \"rb\"); hasher.update(f.read());
+zuzxy/t3/ACM-template/2 动态规划/1 最长上升子序列.cpp\", \"rb\"); hasher.update(f.read());
  f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@h
 ash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlett
 er\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/5722c343b3ff15ed85001baf25224b66d4d9b1ec.pygtex [73])
+(./_minted-template/ddb5df69f93dbc520da206c4fb2e2ac872b48372.pygtex)
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
 te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/5 几何/3D/三维几何的模版.cpp\", \"rb\"); hasher.update(f.read()); f
-.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@has
-h\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter
-\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+zuzxy/t3/ACM-template/2 动态规划/树上的分治/1 树的重心.cpp\", \"rb\"); hasher.update(f.read(
+)); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minte
+d@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatl
+etter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/847e3f9f843cc6c9430074843abd2476fd367626.pygtex [74]
-[75] [76])
+(./_minted-template/66c816c3385840482cbda79f8de70611e80ec4c7.pygtex [16])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
 te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/5 几何/3D/三维凸包.cpp\", \"rb\"); hasher.update(f.read()); f.cl
-ose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\"
- + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\" 
-+ macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+zuzxy/t3/ACM-template/3 图论/DFS/1.无向图的割点和桥.cpp\", \"rb\"); hasher.update(f.read(
+)); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minte
+d@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatl
+etter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/2273336d8eb5b04ef272e0c724d9d842be0d700a.pygtex [17]
+[18] [19])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/3 图论/DFS/2.无向图的双连通分量.cpp\", \"rb\"); hasher.update(f.read
+()); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\mint
+ed@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeat
+letter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
  (./template.mintedmd5)
-(./_minted-template/dce82a5c52f187204953cf1e0e0c20ce2f20da13.pygtex [77]
-[78])
+(./_minted-template/88c073ff60415af838ecad5afc9a4c157c483f81.pygtex [20])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
 te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/5 几何/3D/维度转换为三维坐标.cpp\", \"rb\"); hasher.update(f.read());
- f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@h
-ash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlett
-er\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
- (./template.mintedmd5)
-(./_minted-template/4005628b5e46622a452158f10853433fc267e26d.pygtex)
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/6 其它/IO/fread.cpp\", \"rb\"); hasher.update(f.read()); f.c
-lose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\
-" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\"
- + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+zuzxy/t3/ACM-template/3 图论/DFS/3有向图的强联通分量.cpp\", \"rb\"); hasher.update(f.read(
+)); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minte
+d@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatl
+etter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/7e4a9110661d0173ddf23fcbc064c0d77c029a41.pygtex [79])
+(./_minted-template/3738954ca6ba98e6e4cbc436fcd1297aa0f73a06.pygtex [21])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
 te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/6 其它/IO/fread2.cpp\", \"rb\"); hasher.update(f.read()); f.
-close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash
-\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\
-" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+zuzxy/t3/ACM-template/3 图论/DFS/4 2-sat 问题.cpp\", \"rb\"); hasher.update(f.read(
+)); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minte
+d@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatl
+etter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/381235dcd5a9eb3cf02c8ca29d4538b7e91b3e15.pygtex [80]
-[81])
+(./_minted-template/fcde30e266ae4eb55489c69fd27f0812b82170f5.pygtex [22])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
 te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/6 其它/IO/保留小数.cpp\", \"rb\"); hasher.update(f.read()); f.cl
-ose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\"
- + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\" 
-+ macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
- (./template.mintedmd5)
-(./_minted-template/b6f7e9b7a26fd49112a79bf4179e376c83b05839.pygtex)
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/6 其它/IO/读取整数.cpp\", \"rb\"); hasher.update(f.read()); f.cl
-ose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\"
- + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\" 
-+ macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
-
-
-(./template.mintedmd5)
-(./_minted-template/80989c64f6e7457a786ebd838acb46839dae19ca.pygtex [82])
-\openout5 = `template.mintedcmd'.
-
-runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
-te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/6 其它/c++中处理2进制的一些函数.cpp\", \"rb\"); hasher.update(f.read()
+zuzxy/t3/ACM-template/3 图论/LCA/1 DFS+RMQ.cpp\", \"rb\"); hasher.update(f.read()
 ); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted
 @hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatle
 tter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/3fcde2c85ed78877d47151b1e90de8dc469b3d52.pygtex [83])
+(./_minted-template/f4c0da4aa78a53c1fe36a4b71d28910adae04535.pygtex [23]
+[24])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
 te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
-zuzxy/t2/Template1.0/6 其它/测量程序的运行时间.cpp\", \"rb\"); hasher.update(f.read()); f.
+zuzxy/t3/ACM-template/3 图论/LCA/2倍增算法.cpp\", \"rb\"); hasher.update(f.read()); f
+.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@has
+h\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter
+\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+ (./template.mintedmd5)
+(./_minted-template/1649490fb4900d26d557ddf021ce065b2297b46a.pygtex [25])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/3 图论/Maxflow/1 Dinic.cpp\", \"rb\"); hasher.update(f.read
+()); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\mint
+ed@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeat
+letter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/4be45cfcf79b2a5fd8384ac98dc6238613369326.pygtex [26]
+[27] [28])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/3 图论/Maxflow/2 ISAP.cpp\", \"rb\"); hasher.update(f.read(
+)); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minte
+d@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatl
+etter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+ (./template.mintedmd5)
+(./_minted-template/17f32ac9d115f35eefba8e6ab811cbd536c617c4.pygtex [29]
+[30] [31])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/3 图论/Maxflow/3 MCMF.cpp\", \"rb\"); hasher.update(f.read(
+)); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minte
+d@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatl
+etter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+ (./template.mintedmd5)
+(./_minted-template/256bf09768dcecca8bef13c41041c95e95c728d7.pygtex [32]
+[33])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/3 图论/二分图/1 匈牙利算法.cpp\", \"rb\"); hasher.update(f.read());
+ f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@h
+ash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlett
+er\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+ (./template.mintedmd5)
+(./_minted-template/7bcfb163326a8b839a12ecd3cb0804522098cf80.pygtex [34])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/3 图论/二分图/2 KM.cpp\", \"rb\"); hasher.update(f.read()); f.
 close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash
 \" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\
 " + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/6b602e2c64f287a706b3420f9b687811d9da4b87.pygtex)
+(./_minted-template/ec74f2f13bc88dde95f38e39999a9d92cbdc964b.pygtex [35])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/3 图论/二分图/3 一般图最大匹配.cpp\", \"rb\"); hasher.update(f.read()
+); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted
+@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatle
+tter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/ae12fb11b29a4a3de26c9f0b7fb9832be0015619.pygtex [36]
+[37] [38])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/3 图论/最小生成树/1 Krustral 卡鲁斯卡尔算法.cpp\", \"rb\"); hasher.upda
+te(f.read()); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\e
+def\\minted@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\
+"\\makeatletter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...exe
+cuted.
+
+ (./template.mintedmd5)
+(./_minted-template/cd85a0af347b57d647d52c3a22caf0406d2aa192.pygtex [39])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/3 图论/最小生成树/2 prim 算法.cpp\", \"rb\"); hasher.update(f.read
+()); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\mint
+ed@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeat
+letter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/8e28827560acde6bee3cdd9864acc3748de90e1d.pygtex [40])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/3 图论/最小生成树/3 最小限制生成树.cpp\", \"rb\"); hasher.update(f.read
+()); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\mint
+ed@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeat
+letter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/b97c9ae4fa900548b3181eee12ccc946f745d28f.pygtex [41]
+[42] [43])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/3 图论/最小生成树/4 次小生成树.cpp\", \"rb\"); hasher.update(f.read()
+); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted
+@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatle
+tter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+ (./template.mintedmd5)
+(./_minted-template/2d976318dab13bec113056d7951347c513c50944.pygtex [44]
+[45] [46])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/3 图论/最短路/1 Dijkstra.cpp\", \"rb\"); hasher.update(f.read(
+)); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minte
+d@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatl
+etter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+ (./template.mintedmd5)
+(./_minted-template/4d1362cc766191f7544c2ffd7bc13fb314108e85.pygtex [47]
+[48] [49])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/3 图论/最短路/2 Bellman-ford.cpp\", \"rb\"); hasher.update(f.r
+ead()); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\m
+inted@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\mak
+eatletter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+ (./template.mintedmd5)
+(./_minted-template/a13ffd9556b9c607c62fc6ac2fc8c5f947f7f4ea.pygtex [50]
+[51])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/3 图论/最短路/3 floyed.cpp\", \"rb\"); hasher.update(f.read())
+; f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@
+hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlet
+ter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+ (./template.mintedmd5)
+(./_minted-template/8d9caa7bf04c862b22a89484f88c5d4c56c13a3e.pygtex [52])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/4 数学/3 FWT模板.cpp\", \"rb\"); hasher.update(f.read()); f.c
+lose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\
+" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\"
+ + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/3d1028f98787136730c15e5b831bf17d466c0890.pygtex [53])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/4 数学/BM.cpp\", \"rb\"); hasher.update(f.read()); f.close(
+); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\" + c
+hr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\" + ma
+cro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/71e6637cc1dd8dec83304d7fbd2355ad3c161730.pygtex [54]
+[55])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/4 数学/FFT/FFT.cpp\", \"rb\"); hasher.update(f.read()); f.c
+lose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\
+" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\"
+ + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+ (./template.mintedmd5)
+(./_minted-template/2fb0a28973407ffff25a7338d237a177be6f1fe2.pygtex [56])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/4 数学/FFT/kuangbin.cpp\", \"rb\"); hasher.update(f.read())
+; f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@
+hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlet
+ter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/a502816432f01f84d39c7c8869256a0ae2766462.pygtex [57]
+[58])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/4 数学/FFT/lrj.cpp\", \"rb\"); hasher.update(f.read()); f.c
+lose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\
+" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\"
+ + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+ (./template.mintedmd5)
+(./_minted-template/77bd800e437ad5828681bd36df08ac9b8017201d.pygtex [59])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/4 数学/Lagrange-poly/template.cpp\", \"rb\"); hasher.update
+(f.read()); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\ede
+f\\minted@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\
+\makeatletter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...execu
+ted.
+
+
+(./template.mintedmd5)
+(./_minted-template/ba4deafb93d634c89f56ddcc4aee7f325fd6948f.pygtex [60]
+[61])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/4 数学/博弈/2.威佐夫博弈.cpp\", \"rb\"); hasher.update(f.read()); 
+f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@ha
+sh\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlette
+r\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+ (./template.mintedmd5)
+(./_minted-template/18c44f21863a41cb3696cbcb0213b0693b4ec474.pygtex)
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/4 数学/博弈/3 Nim 积.cpp\", \"rb\"); hasher.update(f.read()); 
+f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@ha
+sh\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlette
+r\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/b6464fb5eb83c0c6d15429f381bc361cfe5f6288.pygtex [62]
+[63])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/4 数学/博弈/4 K倍动态减法.cpp\", \"rb\"); hasher.update(f.read());
+ f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@h
+ash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlett
+er\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+ (./template.mintedmd5)
+(./_minted-template/6fa81c8c5573364b2797a053d59203e4ed3f55ac.pygtex)
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/4 数学/博弈/5 海盗分金问题.cpp\", \"rb\"); hasher.update(f.read());
+ f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@h
+ash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlett
+er\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/0c3b2e4c786820f5296b52840d515da8938966c0.pygtex [64])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/4 数学/博弈/6 Green Hackbush.cpp\", \"rb\"); hasher.update(f.
+read()); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\
+minted@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\ma
+keatletter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed
+.
+
+
+(./template.mintedmd5)
+(./_minted-template/055521942d1668a54525595cc4f02f58d432342d.pygtex [65]
+[66] [67] [68])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/4 数学/博弈/7 反nim 博弈.cpp\", \"rb\"); hasher.update(f.read())
+; f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@
+hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlet
+ter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+ (./template.mintedmd5)
+(./_minted-template/92ec3501cf17d5f01bd2f6151947bea74e79517c.pygtex)
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/4 数学/博弈/8 超自然数.cpp\", \"rb\"); hasher.update(f.read()); f
+.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@has
+h\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter
+\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/b632bbf681d53047859e5fd6fdc1f07940a0cd9a.pygtex [69]
+[70])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/4 数学/数论/1 加法.cpp\", \"rb\"); hasher.update(f.read()); f.c
+lose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\
+" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\"
+ + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+ (./template.mintedmd5)
+(./_minted-template/9a61380a1fce2f37037cc1916ca637fccb1a6ab2.pygtex)
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/4 数学/数论/1 逆元.cpp\", \"rb\"); hasher.update(f.read()); f.c
+lose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\
+" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\"
+ + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/8e4a4dbaaa6ef9b71be2d8cc9fc1c1d77d952b57.pygtex [71])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/4 数学/数论/2 减法.cpp\", \"rb\"); hasher.update(f.read()); f.c
+lose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\
+" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\"
+ + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/7fb92459e2fd9aae7bc7f465bbcdda3199b677f8.pygtex [72])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/4 数学/数论/3 乘法.cpp\", \"rb\"); hasher.update(f.read()); f.c
+lose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\
+" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\"
+ + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/79fc36eeb8cfd6b863a81b37d2d196c66315135a.pygtex)
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/4 数学/数论/4 除法.cpp\", \"rb\"); hasher.update(f.read()); f.c
+lose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\
+" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\"
+ + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/32001551b839898ecda80d78d73c095a5b926cb7.pygtex [73])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/4 数学/数论/5.蒙哥马利快速模.cpp\", \"rb\"); hasher.update(f.read())
+; f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@
+hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlet
+ter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/46fac662d7c5370b29f95a4671f4e0d1797cb943.pygtex [74])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/4 数学/数论/Euler.cpp\", \"rb\"); hasher.update(f.read()); f.
+close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash
+\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\
+" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/b42de9c9f36528965233fc172b24c01ce11c35f7.pygtex [75])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/4 数学/数论/lucas ，组合数.cpp\", \"rb\"); hasher.update(f.read()
+); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted
+@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatle
+tter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/52c7f1f46cf0b56b7e70d62cf06c44c65ea13e4b.pygtex [76])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/4 数学/数论/miller-rabin-Pollard-rho.cpp\", \"rb\"); hasher.u
+pdate(f.read()); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"
+\\edef\\minted@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.writ
+e(\"\\makeatletter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...
+executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/e17900d46b28dbe258ec4ad31a0a5ca19aa58994.pygtex [77]
+[78])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/4 数学/数论/快速数论变换.cpp\", \"rb\"); hasher.update(f.read()); f
+.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@has
+h\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter
+\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+ (./template.mintedmd5)
+(./_minted-template/14a4a915a896753fa1b6f1d12e074af97c5441a4.pygtex [79])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/4 数学/数论/欧拉筛和埃氏筛.cpp\", \"rb\"); hasher.update(f.read()); 
+f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@ha
+sh\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlette
+r\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/f245e0807bb5f3907fca240c6ddcc28e83950534.pygtex [80])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/4 数学/数论/素性检测.cpp\", \"rb\"); hasher.update(f.read()); f.c
+lose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\
+" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\"
+ + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/4f226f006b0a83b7cd4b5124864bb5e3daa875d7.pygtex [81]
+Missing character: There is no ≡ in font [lmmono10-italic]!
+Missing character: There is no ≡ in font [lmmono10-italic]!
+
+[82])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/4 数学/数论/素数筛.cpp\", \"rb\"); hasher.update(f.read()); f.cl
+ose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\"
+ + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\" 
++ macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+ (./template.mintedmd5)
+(./_minted-template/03646951581fdfe4c2ba281bbbc19b6cc6ed1504.pygtex [83])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/4 数学/数论/逆元打表.cpp\", \"rb\"); hasher.update(f.read()); f.c
+lose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\
+" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\"
+ + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/045563913c539f6fb9b81866038daa2550949c90.pygtex)
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/4 数学/矩阵快速幂.cpp\", \"rb\"); hasher.update(f.read()); f.clo
+se(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\" 
++ chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\" +
+ macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/efc74e5f6b3d0e4ef282a958337eaa89423eceba.pygtex [84])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/4 数学/自适应辛普森积分.cpp\", \"rb\"); hasher.update(f.read()); f.
+close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash
+\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\
+" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/dc984a1cbd01b3bf404c172476ccec5f41a96284.pygtex)
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/5 几何/2D/PSLG.cpp\", \"rb\"); hasher.update(f.read()); f.c
+lose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\
+" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\"
+ + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/8b5611b6c2cff0360d7e7af081b663394e4980f7.pygtex [85]
+[86])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/5 几何/2D/二维几何模板.cpp\", \"rb\"); hasher.update(f.read()); f
+.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@has
+h\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter
+\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+ (./template.mintedmd5)
+(./_minted-template/3dd970d79fcd740c78c6f4b166a2dcda69a9fcf8.pygtex [87]
+[88] [89])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/5 几何/2D/二维凸包.cpp\", \"rb\"); hasher.update(f.read()); f.c
+lose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\
+" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\"
+ + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+ (./template.mintedmd5)
+(./_minted-template/adfc5242fecd6c2573757ae69acc3cb6375e7a61.pygtex)
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/5 几何/2D/判断点是否在多边形内.cpp\", \"rb\"); hasher.update(f.read()
+); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted
+@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatle
+tter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/22a4acfd0f4484df722482b0fe79bfb5028435a1.pygtex)
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/5 几何/2D/圆与多边形相交的面积.cpp\", \"rb\"); hasher.update(f.read()
+); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted
+@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatle
+tter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/70b4dea0b2a609d65cd3da355b02bb94e486f3fd.pygtex [90]
+[91] [92] [93])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/5 几何/2D/求圆与直线的交点.cpp\", \"rb\"); hasher.update(f.read());
+ f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@h
+ash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlett
+er\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+ (./template.mintedmd5)
+(./_minted-template/319d7a4022bfb091bf0b0b9bc7ae5e36781edc5a.pygtex [94])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/5 几何/3D/三维几何的基本操作.cpp\", \"rb\"); hasher.update(f.read())
+; f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@
+hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlet
+ter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/20195fb8653fa0128a4af72eca19ea05713cc36c.pygtex [95])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/5 几何/3D/三维几何的模版.cpp\", \"rb\"); hasher.update(f.read()); 
+f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@ha
+sh\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlette
+r\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/dfffd067c9774bd113c37cd2bd1ba425b23bb378.pygtex [96]
+[97] [98])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/5 几何/3D/三维凸包.cpp\", \"rb\"); hasher.update(f.read()); f.c
+lose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\
+" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\"
+ + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+ (./template.mintedmd5)
+(./_minted-template/d05dea70d22f2b826ca7f77909e19c08e464df5d.pygtex [99]
+[100])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/5 几何/3D/维度转换为三维坐标.cpp\", \"rb\"); hasher.update(f.read())
+; f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@
+hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlet
+ter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+ (./template.mintedmd5)
+(./_minted-template/3e0dac1602be2eba2b757d9973e9c5e70baeb1dc.pygtex)
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/6 其它/IO/fread.cpp\", \"rb\"); hasher.update(f.read()); f.
+close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash
+\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\
+" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/f71b602315ee9448b5d2ffdf83683ee30f9cdbe1.pygtex [101])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/6 其它/IO/fread2.cpp\", \"rb\"); hasher.update(f.read()); f
+.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@has
+h\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter
+\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/99618ec7b8e4f1a7331453ed27c488e2a51a2cc6.pygtex [102]
+[103])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/6 其它/IO/保留小数.cpp\", \"rb\"); hasher.update(f.read()); f.c
+lose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\
+" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\"
+ + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+ (./template.mintedmd5)
+(./_minted-template/6f3e6a32214d034bd5592f4c05601792e3da3e52.pygtex)
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/6 其它/IO/读取整数.cpp\", \"rb\"); hasher.update(f.read()); f.c
+lose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\
+" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\"
+ + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/7c128962d07b1fc8457e91f3ba05d6006847e221.pygtex)
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/6 其它/c++中处理2进制的一些函数.cpp\", \"rb\"); hasher.update(f.read(
+)); f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minte
+d@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatl
+etter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/61d277536a7df7e2fcba08fdd7f89a9ab49b6fa2.pygtex [104]
+[105])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/6 其它/测量程序的运行时间.cpp\", \"rb\"); hasher.update(f.read()); f
+.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@has
+h\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter
+\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+ (./template.mintedmd5)
+(./_minted-template/b824758d639dbc79e7cb272c8257637a16d718fb.pygtex)
 runsystem(rm "template.mintedcmd")...executed.
 
 runsystem(rm "template.mintedmd5")...executed.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 188.
- [84]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 188.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 216.
+ [106]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 216.
 
 (./template.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 188.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 188.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 216.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 216.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 28284 strings out of 495579
- 543549 string characters out of 6187322
+ 28364 strings out of 495579
+ 547078 string characters out of 6187321
  599229 words of memory out of 5000000
- 30985 multiletter control sequences out of 15000+600000
+ 31000 multiletter control sequences out of 15000+600000
  6960 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  53i,7n,74p,10400b,547s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on template.pdf (87 pages).
+Output written on template.pdf (109 pages).

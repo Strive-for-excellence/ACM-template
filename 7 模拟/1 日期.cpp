@@ -40,3 +40,19 @@ int main(void)
 	
 	return 0;
 } 
+2 计算某一天星期几
+int cal1(int y,int m,int d)
+{
+    if(m==1||m==2)
+        m+=12,y--;
+    int w=(d+2*m+3*(m+1)/5+y+y/4-y/100+y/400)%7;
+    return ++w;
+}
+int cal2(int y,int m,int d)
+{
+    if(m==1||m==2)
+        m+=12,y--;
+    int c=y/100,ty=y%100;
+    int w=ty+ty/4+c/4-2*c+26*(m+1)/10+d-1;
+    return w%7==0?7:(w+7)%7;
+}

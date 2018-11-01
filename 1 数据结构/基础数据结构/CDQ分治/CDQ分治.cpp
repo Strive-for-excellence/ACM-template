@@ -1,4 +1,7 @@
 // CDQ 解决 单点修改，区间查询
+/*
+
+*/
 const int maxn = 5e6+100;
 
 struct node{
@@ -33,9 +36,9 @@ void CDQ(int L,int R){
         else if(A[t2].type == 3) ans[A[t2].val] += sum;
         B[i] = A[t2++];
     }
-    
+
   }
-  
+
   for(int i = L;i <= R; ++i) A[i] = B[i];
 }
 int main(void)

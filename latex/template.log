@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2018.10.14)  1 NOV 2018 16:21
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2018.10.14)  2 NOV 2018 09:43
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1493,6 +1493,18 @@ ter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
 te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/2 动态规划/1 单调队列.cpp\", \"rb\"); hasher.update(f.read()); f.
+close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash
+\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\
+" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/2abc078a91708bded9398f3b79dc41c9b88ca4ff.pygtex [16])
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
 zuzxy/t3/ACM-template/2 动态规划/1 最长上升子序列.cpp\", \"rb\"); hasher.update(f.read());
  f.close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@h
 ash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlett
@@ -1512,7 +1524,7 @@ etter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/66c816c3385840482cbda79f8de70611e80ec4c7.pygtex [16])
+(./_minted-template/66c816c3385840482cbda79f8de70611e80ec4c7.pygtex [17])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1524,8 +1536,8 @@ etter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/2273336d8eb5b04ef272e0c724d9d842be0d700a.pygtex [17]
-[18] [19])
+(./_minted-template/2273336d8eb5b04ef272e0c724d9d842be0d700a.pygtex [18]
+[19] [20])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1536,7 +1548,7 @@ ed@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeat
 letter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
  (./template.mintedmd5)
-(./_minted-template/88c073ff60415af838ecad5afc9a4c157c483f81.pygtex [20])
+(./_minted-template/88c073ff60415af838ecad5afc9a4c157c483f81.pygtex [21])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1548,7 +1560,7 @@ etter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/3738954ca6ba98e6e4cbc436fcd1297aa0f73a06.pygtex [21])
+(./_minted-template/3738954ca6ba98e6e4cbc436fcd1297aa0f73a06.pygtex [22])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1560,7 +1572,7 @@ etter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/fcde30e266ae4eb55489c69fd27f0812b82170f5.pygtex [22])
+(./_minted-template/fcde30e266ae4eb55489c69fd27f0812b82170f5.pygtex [23])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1572,8 +1584,8 @@ tter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/f4c0da4aa78a53c1fe36a4b71d28910adae04535.pygtex [23]
-[24])
+(./_minted-template/f4c0da4aa78a53c1fe36a4b71d28910adae04535.pygtex [24]
+[25])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1584,7 +1596,7 @@ h\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter
 \" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
  (./template.mintedmd5)
-(./_minted-template/1649490fb4900d26d557ddf021ce065b2297b46a.pygtex [25])
+(./_minted-template/1649490fb4900d26d557ddf021ce065b2297b46a.pygtex [26])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1596,8 +1608,8 @@ letter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/4be45cfcf79b2a5fd8384ac98dc6238613369326.pygtex [26]
-[27] [28])
+(./_minted-template/4be45cfcf79b2a5fd8384ac98dc6238613369326.pygtex [27]
+[28] [29])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1608,8 +1620,8 @@ d@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatl
 etter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
  (./template.mintedmd5)
-(./_minted-template/17f32ac9d115f35eefba8e6ab811cbd536c617c4.pygtex [29]
-[30] [31])
+(./_minted-template/17f32ac9d115f35eefba8e6ab811cbd536c617c4.pygtex [30]
+[31] [32])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1620,8 +1632,8 @@ d@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatl
 etter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
  (./template.mintedmd5)
-(./_minted-template/256bf09768dcecca8bef13c41041c95e95c728d7.pygtex [32]
-[33])
+(./_minted-template/256bf09768dcecca8bef13c41041c95e95c728d7.pygtex [33]
+[34])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1632,7 +1644,7 @@ ash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlett
 er\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
  (./template.mintedmd5)
-(./_minted-template/7bcfb163326a8b839a12ecd3cb0804522098cf80.pygtex [34])
+(./_minted-template/7bcfb163326a8b839a12ecd3cb0804522098cf80.pygtex [35])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1644,7 +1656,7 @@ close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash
 
 
 (./template.mintedmd5)
-(./_minted-template/ec74f2f13bc88dde95f38e39999a9d92cbdc964b.pygtex [35])
+(./_minted-template/ec74f2f13bc88dde95f38e39999a9d92cbdc964b.pygtex [36])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1656,8 +1668,8 @@ tter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/ae12fb11b29a4a3de26c9f0b7fb9832be0015619.pygtex [36]
-[37] [38])
+(./_minted-template/ae12fb11b29a4a3de26c9f0b7fb9832be0015619.pygtex [37]
+[38] [39])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1669,7 +1681,7 @@ def\\minted@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\
 cuted.
 
  (./template.mintedmd5)
-(./_minted-template/cd85a0af347b57d647d52c3a22caf0406d2aa192.pygtex [39])
+(./_minted-template/cd85a0af347b57d647d52c3a22caf0406d2aa192.pygtex [40])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1681,7 +1693,7 @@ letter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/8e28827560acde6bee3cdd9864acc3748de90e1d.pygtex [40])
+(./_minted-template/8e28827560acde6bee3cdd9864acc3748de90e1d.pygtex [41])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1693,8 +1705,8 @@ letter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/b97c9ae4fa900548b3181eee12ccc946f745d28f.pygtex [41]
-[42] [43])
+(./_minted-template/b97c9ae4fa900548b3181eee12ccc946f745d28f.pygtex [42]
+[43] [44])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1705,8 +1717,8 @@ zuzxy/t3/ACM-template/3 图论/最小生成树/4 次小生成树.cpp\", \"rb\");
 tter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
  (./template.mintedmd5)
-(./_minted-template/2d976318dab13bec113056d7951347c513c50944.pygtex [44]
-[45] [46])
+(./_minted-template/2d976318dab13bec113056d7951347c513c50944.pygtex [45]
+[46] [47])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1717,8 +1729,8 @@ d@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatl
 etter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
  (./template.mintedmd5)
-(./_minted-template/4d1362cc766191f7544c2ffd7bc13fb314108e85.pygtex [47]
-[48] [49])
+(./_minted-template/4d1362cc766191f7544c2ffd7bc13fb314108e85.pygtex [48]
+[49] [50])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1729,8 +1741,8 @@ inted@hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\mak
 eatletter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
  (./template.mintedmd5)
-(./_minted-template/a13ffd9556b9c607c62fc6ac2fc8c5f947f7f4ea.pygtex [50]
-[51])
+(./_minted-template/a13ffd9556b9c607c62fc6ac2fc8c5f947f7f4ea.pygtex [51]
+[52])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1741,7 +1753,7 @@ hash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlet
 ter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
  (./template.mintedmd5)
-(./_minted-template/8d9caa7bf04c862b22a89484f88c5d4c56c13a3e.pygtex [52])
+(./_minted-template/8d9caa7bf04c862b22a89484f88c5d4c56c13a3e.pygtex [53])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1753,7 +1765,7 @@ lose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\
 
 
 (./template.mintedmd5)
-(./_minted-template/3d1028f98787136730c15e5b831bf17d466c0890.pygtex [53])
+(./_minted-template/3d1028f98787136730c15e5b831bf17d466c0890.pygtex [54])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1765,8 +1777,8 @@ cro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/71e6637cc1dd8dec83304d7fbd2355ad3c161730.pygtex [54]
-[55])
+(./_minted-template/71e6637cc1dd8dec83304d7fbd2355ad3c161730.pygtex [55]
+[56])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1777,7 +1789,7 @@ lose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\
  + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
  (./template.mintedmd5)
-(./_minted-template/2fb0a28973407ffff25a7338d237a177be6f1fe2.pygtex [56])
+(./_minted-template/2fb0a28973407ffff25a7338d237a177be6f1fe2.pygtex [57])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1789,8 +1801,8 @@ ter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/a502816432f01f84d39c7c8869256a0ae2766462.pygtex [57]
-[58])
+(./_minted-template/a502816432f01f84d39c7c8869256a0ae2766462.pygtex [58]
+[59])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1801,7 +1813,7 @@ lose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\
  + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
  (./template.mintedmd5)
-(./_minted-template/77bd800e437ad5828681bd36df08ac9b8017201d.pygtex [59])
+(./_minted-template/77bd800e437ad5828681bd36df08ac9b8017201d.pygtex [60])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1814,8 +1826,8 @@ ted.
 
 
 (./template.mintedmd5)
-(./_minted-template/ba4deafb93d634c89f56ddcc4aee7f325fd6948f.pygtex [60]
-[61])
+(./_minted-template/ba4deafb93d634c89f56ddcc4aee7f325fd6948f.pygtex [61]
+[62])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1838,8 +1850,8 @@ r\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/b6464fb5eb83c0c6d15429f381bc361cfe5f6288.pygtex [62]
-[63])
+(./_minted-template/b6464fb5eb83c0c6d15429f381bc361cfe5f6288.pygtex [63]
+[64])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1862,7 +1874,7 @@ er\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/0c3b2e4c786820f5296b52840d515da8938966c0.pygtex [64])
+(./_minted-template/0c3b2e4c786820f5296b52840d515da8938966c0.pygtex [65])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1875,8 +1887,8 @@ keatletter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed
 
 
 (./template.mintedmd5)
-(./_minted-template/055521942d1668a54525595cc4f02f58d432342d.pygtex [65]
-[66] [67] [68])
+(./_minted-template/055521942d1668a54525595cc4f02f58d432342d.pygtex [66]
+[67] [68] [69])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1899,8 +1911,8 @@ h\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter
 
 
 (./template.mintedmd5)
-(./_minted-template/b632bbf681d53047859e5fd6fdc1f07940a0cd9a.pygtex [69]
-[70])
+(./_minted-template/b632bbf681d53047859e5fd6fdc1f07940a0cd9a.pygtex [70]
+[71])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1923,7 +1935,7 @@ lose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\
 
 
 (./template.mintedmd5)
-(./_minted-template/8e4a4dbaaa6ef9b71be2d8cc9fc1c1d77d952b57.pygtex [71])
+(./_minted-template/8e4a4dbaaa6ef9b71be2d8cc9fc1c1d77d952b57.pygtex [72])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1935,7 +1947,7 @@ lose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\
 
 
 (./template.mintedmd5)
-(./_minted-template/7fb92459e2fd9aae7bc7f465bbcdda3199b677f8.pygtex [72])
+(./_minted-template/7fb92459e2fd9aae7bc7f465bbcdda3199b677f8.pygtex [73])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1959,7 +1971,7 @@ lose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\
 
 
 (./template.mintedmd5)
-(./_minted-template/32001551b839898ecda80d78d73c095a5b926cb7.pygtex [73])
+(./_minted-template/32001551b839898ecda80d78d73c095a5b926cb7.pygtex [74])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1971,7 +1983,7 @@ ter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/46fac662d7c5370b29f95a4671f4e0d1797cb943.pygtex [74])
+(./_minted-template/46fac662d7c5370b29f95a4671f4e0d1797cb943.pygtex [75])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1983,7 +1995,7 @@ close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash
 
 
 (./template.mintedmd5)
-(./_minted-template/b42de9c9f36528965233fc172b24c01ce11c35f7.pygtex [75])
+(./_minted-template/b42de9c9f36528965233fc172b24c01ce11c35f7.pygtex [76])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -1995,7 +2007,7 @@ tter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/52c7f1f46cf0b56b7e70d62cf06c44c65ea13e4b.pygtex [76])
+(./_minted-template/52c7f1f46cf0b56b7e70d62cf06c44c65ea13e4b.pygtex [77])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -2008,8 +2020,8 @@ executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/e17900d46b28dbe258ec4ad31a0a5ca19aa58994.pygtex [77]
-[78])
+(./_minted-template/e17900d46b28dbe258ec4ad31a0a5ca19aa58994.pygtex [78]
+[79])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -2020,7 +2032,7 @@ h\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter
 \" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
  (./template.mintedmd5)
-(./_minted-template/14a4a915a896753fa1b6f1d12e074af97c5441a4.pygtex [79])
+(./_minted-template/14a4a915a896753fa1b6f1d12e074af97c5441a4.pygtex [80])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -2032,7 +2044,7 @@ r\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/f245e0807bb5f3907fca240c6ddcc28e83950534.pygtex [80])
+(./_minted-template/f245e0807bb5f3907fca240c6ddcc28e83950534.pygtex [81])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -2044,11 +2056,11 @@ lose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\
 
 
 (./template.mintedmd5)
-(./_minted-template/4f226f006b0a83b7cd4b5124864bb5e3daa875d7.pygtex [81]
+(./_minted-template/4f226f006b0a83b7cd4b5124864bb5e3daa875d7.pygtex [82]
 Missing character: There is no ≡ in font [lmmono10-italic]!
 Missing character: There is no ≡ in font [lmmono10-italic]!
 
-[82])
+[83])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -2059,7 +2071,7 @@ ose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\"
 + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
  (./template.mintedmd5)
-(./_minted-template/03646951581fdfe4c2ba281bbbc19b6cc6ed1504.pygtex [83])
+(./_minted-template/03646951581fdfe4c2ba281bbbc19b6cc6ed1504.pygtex [84])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -2083,7 +2095,7 @@ se(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\"
 
 
 (./template.mintedmd5)
-(./_minted-template/efc74e5f6b3d0e4ef282a958337eaa89423eceba.pygtex [84])
+(./_minted-template/efc74e5f6b3d0e4ef282a958337eaa89423eceba.pygtex [85])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -2107,8 +2119,8 @@ lose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\
 
 
 (./template.mintedmd5)
-(./_minted-template/8b5611b6c2cff0360d7e7af081b663394e4980f7.pygtex [85]
-[86])
+(./_minted-template/8b5611b6c2cff0360d7e7af081b663394e4980f7.pygtex [86]
+[87])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -2119,8 +2131,8 @@ h\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter
 \" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
  (./template.mintedmd5)
-(./_minted-template/3dd970d79fcd740c78c6f4b166a2dcda69a9fcf8.pygtex [87]
-[88] [89])
+(./_minted-template/3dd970d79fcd740c78c6f4b166a2dcda69a9fcf8.pygtex [88]
+[89] [90])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -2155,8 +2167,8 @@ tter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/70b4dea0b2a609d65cd3da355b02bb94e486f3fd.pygtex [90]
-[91] [92] [93])
+(./_minted-template/70b4dea0b2a609d65cd3da355b02bb94e486f3fd.pygtex [91]
+[92] [93] [94])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -2167,7 +2179,7 @@ ash\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatlett
 er\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
  (./template.mintedmd5)
-(./_minted-template/319d7a4022bfb091bf0b0b9bc7ae5e36781edc5a.pygtex [94])
+(./_minted-template/319d7a4022bfb091bf0b0b9bc7ae5e36781edc5a.pygtex [95])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -2179,7 +2191,7 @@ ter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/20195fb8653fa0128a4af72eca19ea05713cc36c.pygtex [95])
+(./_minted-template/20195fb8653fa0128a4af72eca19ea05713cc36c.pygtex [96])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -2191,8 +2203,8 @@ r\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/dfffd067c9774bd113c37cd2bd1ba425b23bb378.pygtex [96]
-[97] [98])
+(./_minted-template/dfffd067c9774bd113c37cd2bd1ba425b23bb378.pygtex [97]
+[98] [99])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -2203,8 +2215,8 @@ lose(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\
  + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
  (./template.mintedmd5)
-(./_minted-template/d05dea70d22f2b826ca7f77909e19c08e464df5d.pygtex [99]
-[100])
+(./_minted-template/d05dea70d22f2b826ca7f77909e19c08e464df5d.pygtex [100]
+[101])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -2227,7 +2239,7 @@ close(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash
 
 
 (./template.mintedmd5)
-(./_minted-template/f71b602315ee9448b5d2ffdf83683ee30f9cdbe1.pygtex [101])
+(./_minted-template/f71b602315ee9448b5d2ffdf83683ee30f9cdbe1.pygtex [102])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -2239,8 +2251,8 @@ h\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter
 
 
 (./template.mintedmd5)
-(./_minted-template/99618ec7b8e4f1a7331453ed27c488e2a51a2cc6.pygtex [102]
-[103])
+(./_minted-template/99618ec7b8e4f1a7331453ed27c488e2a51a2cc6.pygtex [103]
+[104])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -2275,8 +2287,8 @@ etter\" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
 
 (./template.mintedmd5)
-(./_minted-template/61d277536a7df7e2fcba08fdd7f89a9ab49b6fa2.pygtex [104]
-[105])
+(./_minted-template/61d277536a7df7e2fcba08fdd7f89a9ab49b6fa2.pygtex [105]
+[106])
 \openout5 = `template.mintedcmd'.
 
 runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
@@ -2287,30 +2299,42 @@ h\" + chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter
 \" + macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
 
  (./template.mintedmd5)
-(./_minted-template/b824758d639dbc79e7cb272c8257637a16d718fb.pygtex)
+(./_minted-template/d3d0a8825aae87e50b8aa4e11e18d8f87d2d1606.pygtex)
+\openout5 = `template.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"templa
+te.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"/home/z
+zuzxy/t3/ACM-template/7 模拟/1 日期.cpp\", \"rb\"); hasher.update(f.read()); f.clos
+e(); f = open(\"template.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\" +
+ chr(123) + hasher.hexdigest() + chr(125) + \"\"; f.write(\"\\makeatletter\" + 
+macro + \"\\makeatother\\endinput\n \"); f.close();")...executed.
+
+
+(./template.mintedmd5)
+(./_minted-template/5680c5fa8b933ce685fd7cf23611c97de3042c98.pygtex [107]
+[108] [109] [110] [111])
 runsystem(rm "template.mintedcmd")...executed.
 
 runsystem(rm "template.mintedmd5")...executed.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 216.
- [106]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 216.
-
-(./template.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 216.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 216.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 221.
+ [112]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 221.
+ (./template.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 221.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 221.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 28364 strings out of 495579
- 547078 string characters out of 6187321
+ 28377 strings out of 495579
+ 547627 string characters out of 6187321
  599229 words of memory out of 5000000
- 31000 multiletter control sequences out of 15000+600000
+ 31003 multiletter control sequences out of 15000+600000
  6960 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  53i,7n,74p,10400b,547s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on template.pdf (109 pages).
+Output written on template.pdf (115 pages).

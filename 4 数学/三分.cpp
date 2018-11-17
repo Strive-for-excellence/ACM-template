@@ -1,3 +1,5 @@
+
+//1142 : 三分·三分求极值
 #include <bits/stdc++.h>
 #define mem(ar,num) memset(ar,num,sizeof(ar))
 #define me(ar) memset(ar,0,sizeof(ar))

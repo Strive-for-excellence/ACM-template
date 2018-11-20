@@ -1,5 +1,6 @@
 //2017-2018 ACM-ICPC Southwestern European Regional Programming Contest (SWERC 2017)
-//K 	Blowing Candles 
+//K 	Blowing Candles
+//  求包含所有点的两条平行线之间的最短距离
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>

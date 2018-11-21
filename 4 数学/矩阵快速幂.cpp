@@ -1,5 +1,5 @@
 // 注意修改maxn 的值，要不然容易T
-
+// 注意maxn值过大，栈可能会不够
 const int maxn = 100;
 int n;
 struct Matrix{

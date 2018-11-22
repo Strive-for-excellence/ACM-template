@@ -1,3 +1,11 @@
+/*
+
+Margot 有一个 长度为字符串aa，给定nn个子串，
+每一个子串一个价值wi，从原串中取出一个子串后，
+原串的左右结合组合成一个新的串，
+并且得到改子串的价值wi。 问能取到的最大价值
+*/
+// SWERC 2017 D candy
 #include<bits/stdc++.h>
 
 using namespace std;

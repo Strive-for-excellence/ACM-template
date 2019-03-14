@@ -1,81 +1,106 @@
-// 线段树的区间更新和区间查询
-
-
-#include <iostream>
-#include <stdio.h>
-#define ll long long
-#define lson l, mid, rt << 1
-#define rson mid + 1, r, rt << 1 | 1
+#include<bits/stdc++.h>
 using namespace std;
-
-const int MAXN = 1e5 + 10;
-ll sum[MAXN << 2];
-ll add[MAXN << 2];
-
-void push_up(int rt){//向上更新
-    sum[rt] = sum[rt << 1] + sum[rt << 1 | 1];
+#define lson (o << 1)
+#define rson (o << 1|1)
+const int maxn = 1e5+10;
+const int INF = 1e9;
+typedef long long LL;
+struct Tree{
+	LL min,max,sum,add;
+};
+Tree tree[maxn<<2];
+LL a[maxn];
+void pushup(int o,int l,int r){
+	tree[o].min = min(tree[lson].min,tree[rson].max);
+	tree[o].max = max(tree[lson].max,tree[rson].max);
+	tree[o].sum = tree[lson].sum + tree[rson].sum;
 }
+void pushdown(int o,int l,int r){
+	int m = (l+r)>>1;
+	if(tree[o].add){
+		tree[lson].add += tree[o].add;
+		tree[lson].sum += (m-l+1)*tree[o].add;
+		tree[lson].min += tree[o].add;
+		tree[lson].max += tree[o].add;
 
-void push_down(int rt, int m){
-    if(add[rt]){//若有标记,则将标记向下移动一层
-        add[rt << 1] += add[rt];
-        add[rt << 1 | 1] += add[rt];
-        sum[rt << 1] += (m - (m >> 1)) * add[rt];
-        sum[rt << 1 | 1] += (m >> 1) * add[rt];
-        add[rt] = 0;//取消本层标记
-    }
+		tree[rson].add += tree[o].add;
+		tree[rson].sum += (r-m)*tree[o].add;
+		tree[rson].min += tree[o].add;
+		tree[lson].max += tree[o].add;
+		tree[o].add = 0;
+	}
 }
-
-void build(int l, int r, int rt){//建树
-    add[rt] = 0;
-    if(l == r){
-        scanf("%lld", &sum[rt]);
-        return;
-    }
-    int mid = (l + r) >> 1;
-    build(lson);
-    build(rson);
-    push_up(rt);//向上更新
+void up(Tree & a,Tree b){
+	a.min = min(a.min,b.min);
+	a.max = max(a.max,b.max);
+	a.sum += b.sum;
 }
-
-void update(int L, int R, ll key, int l, int r, int rt){//区间更新
-    if(L <= l && R >= r){
-        sum[rt] += (r - l + 1) * key;
-        add[rt] += key;
-        return;
-    }
-    push_down(rt, r - l + 1);//向下更新
-    int mid = (l + r) >> 1;
-    if(L <= mid) update(L, R, key, lson);
-    if(R > mid) update(L, R, key, rson);
-    push_up(rt);//向上更新
+void build(int o,int l,int r){
+	// cout<<l<<" "<<r<<endl;
+	if(l == r)
+	 	{
+	 		tree[o].min = tree[o].max = tree[o].sum = a[l];
+	 		// cout<<l <<" "<<a[l]<<endl;
+	 	}
+	else{
+		int m = (l+r)>>1;
+		build(lson,l,m);
+		build(rson,m+1,r);
+		pushup(o,l,r);
+	}
 }
-
-ll query(int L, int R, int l, int r, int rt){//区间求和
-    if(L <= l && R >= r) return sum[rt];
-    push_down(rt, r - l + 1);//向下更新
-    int mid = (l + r) >> 1;
-    ll ans = 0;
-    if(L <= mid) ans += query(L, R, lson);
-    if(R > mid) ans += query(L, R, rson);
-    return ans;
+void Update(int o,int l,int r,int L,int R,int v){
+	if(L <= l && R >= r){
+		tree[o].add += v;
+		tree[o].sum += (r-l+1)*v;
+		tree[o].max += v;
+		tree[o].min += v;
+		return ;
+	}
+	pushdown(o,l,r);
+	int m = (l+r)/2;
+	if(L <= m)
+		Update(lson,l,m,L,R,v);
+	if(R > m)
+		Update(rson,m+1,r,L,R,v);
+	pushup(o,l,r);
 }
-
+Tree Query(int o,int l,int r,int L,int R){
+	
+	if(L <= l && R >= r)
+	{
+		return tree[o];
+	}
+	Tree tmp;
+	tmp.min = INF,tmp.max = -INF,tmp.sum = 0;
+	pushdown(o,l,r);
+	int m = (l+r)>>1;
+	if(L <= m)
+		up(tmp,Query(lson,l,m,L,R));
+	if(R > m)
+		up(tmp,Query(rson,m+1,r,L,R));
+	// cout<<tmp.sum<<endl;
+	return tmp;
+}
 int main(void){
-    int n, m;
-    scanf("%d%d", &n, &m);
-    build(1, n, 1);
-    while(m--){
-        char str[3];
-        int x, y;
-        ll z;
-        scanf("%s", str);
-        if(str[0] == 'C'){
-            scanf("%d%d%lld", &x, &y, &z);
-            update(x, y, z, 1, n, 1);
-        }else{
-            scanf("%d%d", &x, &y);
-            printf("%lld\n", query(x, y, 1, n, 1));
-        }
-    }
+
+	int N,Q;cin>>N>>Q;
+	for(int i =1;i <= N; ++i)
+		scanf("%lld",&a[i]);
+	build(1,1,N);
+	// cout<<Query(1,1,N,1,1).sum<<endl;
+	while(Q--){
+		LL c,x,y,v;
+		scanf("%lld%lld%lld",&c,&x,&y);
+		if(c == 1){
+			scanf("%lld",&v);
+			Update(1,1,N,x,y,v);
+		}
+		else{
+			printf("%lld\n",Query(1,1,N,x,y).sum);
+		}
+	}
+
+
+	return 0;
 }

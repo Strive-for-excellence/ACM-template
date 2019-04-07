@@ -37,6 +37,7 @@ void up(Tree & a,Tree b){
 }
 void build(int o,int l,int r){
 	// cout<<l<<" "<<r<<endl;
+	tree[o].add = 0;
 	if(l == r)
 	 	{
 	 		tree[o].min = tree[o].max = tree[o].sum = a[l];

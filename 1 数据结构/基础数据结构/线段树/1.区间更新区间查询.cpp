@@ -26,7 +26,7 @@ void pushdown(int o,int l,int r){
 		tree[rson].add += tree[o].add;
 		tree[rson].sum += (r-m)*tree[o].add;
 		tree[rson].min += tree[o].add;
-		tree[lson].max += tree[o].add;
+		tree[rson].max += tree[o].add;
 		tree[o].add = 0;
 	}
 }

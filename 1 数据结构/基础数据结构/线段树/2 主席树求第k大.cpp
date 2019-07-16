@@ -1,7 +1,7 @@
 // 主席树求第k大
 // 先离散，后可持续化建树
 // poj 2104
-
+// luogu: https://www.luogu.org/problemnew/show/P3834
 #include <bits/stdc++.h>
 #define me(ar) memset(ar,0,sizeof(ar))
 #define rep(i,a,n) for (int i=a;i<n;i++)

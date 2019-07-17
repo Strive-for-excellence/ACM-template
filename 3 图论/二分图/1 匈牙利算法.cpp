@@ -29,8 +29,9 @@ int N, M;
 bool dfs(int v) {
 	used[v] = true;
 	for (int i = 0; i < G[v].size(); ++i) {
-		// if (used[u]) continue; used[u] = true;
+		
 		int u = G[v][i], w = match[u];
+		if (used[u]) continue; used[u] = true;
 		if (w < 0 || !used[w] && dfs(w)) {
 			match[v] = u;
 			match[u] = v;

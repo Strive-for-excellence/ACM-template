@@ -1,3 +1,5 @@
+
+
 int cantor(int a[],int n){//cantor展开,n表示是n位的全排列，a[]表示全排列的数
     int ans=0,sum=0;
     for(int i=1;i<n;i++){

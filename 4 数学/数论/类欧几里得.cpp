@@ -17,6 +17,15 @@ struct Query {
 };
 
 Query solve(ll a, ll b, ll c, ll n) {
+/*
+注，类欧几里得算法
+问题：给定n,a,b,c;求i from 0 to n 求
+f:(a*i+b)/c;
+g:i*(a*i+b)/c
+h:((a*i+b)/c)^2
+对998244353取模的值
+
+*/
     Query ans, tmp;
     if (a == 0) {
         ans.f = (n + 1) * (b / c) % mod;
@@ -50,12 +59,4 @@ int main() {
     }
     return 0;
 }
-/*
-注，类欧几里得算法
-问题：给定n,a,b,c;求i from 0 to n 求
-f:(a*i+b)/c;
-g:i*(a*i+b)/c
-h:((a*i+b)/c)^2
-对998244353取模的值
 
-*/

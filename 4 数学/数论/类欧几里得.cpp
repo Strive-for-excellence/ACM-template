@@ -47,6 +47,9 @@ h:((a*i+b)/c)^2
     ans.f = (n * (m % mod) % mod - tmp.f) % mod;
     ans.g = (n * (n + 1) % mod * (m % mod) % mod - tmp.f - tmp.h) % mod * inv2 % mod;
     ans.h = (n * (m % mod) % mod * ((m + 1) % mod) % mod - 2 * tmp.g - 2 * tmp.f - ans.f) % mod;
+    ans.f = (ans.f%mod+mod)%mod;
+    ans.g = (ans.g%mod+mod)%mod;
+    ans.h = (ans.h%mod+mod)%mod;
     return ans;
 }
 int main() {

@@ -32,6 +32,7 @@ inline int id(LL t){return t <= sqr?id1[t]:id2[n/t];}
 
 // sum(f[i])(i \in P)
 void Getp(){
+	cnt = 0;
 	for(LL i = 1,j;i <= n;i = j+1){
 		j = n/(n/i);
 		val[++cnt] = n/i;

@@ -1,7 +1,8 @@
 
 1. 下载工程
-2. 除latex文件夹外其他都可以修改替换
-3. 在命令行下进入latex文件夹
-4. make 回车 
+2. 安装 latex, sudo apt-get install texlive
+3. 除latex文件夹外其他都可以修改替换
+4. 在命令行下进入latex文件夹
+5. 打开终端 make
 
 

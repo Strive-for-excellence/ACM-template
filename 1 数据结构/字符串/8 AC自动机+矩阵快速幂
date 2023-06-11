@@ -1,0 +1,126 @@
+https://atcoder.jp/contests/abc305/tasks/abc305_g
+#include<bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+const int MAXD=127;
+const int Mod=998244353;
+struct Matrix
+{
+    int a[MAXD][MAXD];
+    Matrix(int d=0)
+    {
+        for(int i=0;i<MAXD;i++)
+            for(int j=0;j<MAXD;j++)
+                a[i][j]=(i==j)*d;
+    }
+    Matrix operator * (const Matrix& B) const
+    {
+        Matrix C;
+        for(int i=0;i<MAXD;i++)
+            for(int k=0;k<MAXD;k++)
+                for(int j=0;j<MAXD;j++)
+                    C.a[i][j]=(C.a[i][j]+1LL*a[i][k]*B.a[k][j])%Mod;
+        return C;
+    }
+    Matrix pow(ll k) const
+    {
+        Matrix res(1),A=(*this);
+        while(k)
+        {
+            if(k&1)res=res*A;
+            if(k>1)A=A*A;
+            k>>=1;
+        }
+        return res;
+    }
+};
+const int MAXN=127;
+const int SIGMA=2;
+struct AhoCorasick
+{
+    int root,L;
+    int nxt[MAXN][SIGMA],fail[MAXN],ed[MAXN];
+    int newnode()
+    {
+        ed[L]=0;
+        memset(nxt[L],-1,sizeof(nxt[L]));
+        return L++;
+    }
+    void init()
+    {
+        L=0;
+        root=newnode();
+    }
+    void insert(const string& t)
+    {
+        int now=root;
+        for(int i=0;i<(int)t.size();i++)
+        {
+            if(nxt[now][t[i]-'a']==-1)
+                nxt[now][t[i]-'a']=newnode();
+            now=nxt[now][t[i]-'a'];
+        }
+        ed[now]=1;
+    }
+    void build()
+    {
+        queue<int>q;
+        fail[root]=root;
+        for(int i=0;i<SIGMA;i++)
+        {
+            if(nxt[root][i]==-1)
+                nxt[root][i]=root;
+            else
+            {
+                fail[nxt[root][i]]=root;
+                q.push(nxt[root][i]);
+            }
+        }
+        while(!q.empty())
+        {
+            int now=q.front();
+            q.pop();
+            for(int i=0;i<SIGMA;i++)
+            {
+                if(nxt[now][i]==-1)
+                    nxt[now][i]=nxt[fail[now]][i];
+                else
+                {
+                    fail[nxt[now][i]]=nxt[fail[now]][i];
+                    ed[nxt[now][i]]|=ed[fail[nxt[now][i]]];
+                    q.push(nxt[now][i]);
+                }
+            }
+        }
+    }
+    int solve(ll n)
+    {
+        Matrix H;
+        for(int i=0;i<L;i++)
+        {
+            if(!ed[i])
+            for(int j=0;j<SIGMA;j++)
+                H.a[i][nxt[i][j]]++;
+        }
+        H=H.pow(n);
+        int res=0;
+        for(int i=0;i<L;i++)
+            if(!ed[i])res=(res+H.a[0][i])%Mod;
+        return res;
+    }
+}acam;
+int main()
+{
+    ll n;
+    int m;
+    scanf("%lld%d",&n,&m);
+    acam.init();
+    for(int i=1;i<=m;i++)
+    {
+        char s[7];
+        scanf("%s",s);
+        acam.insert(s);
+    }
+    acam.build();
+    return 0*printf("%d\n",acam.solve(n));
+}

@@ -1,9 +1,7 @@
 // POJ1330
 // LCA的倍增算法 
+#include<bits/stdc++.h>
 
-#include<vector>
-#include<cstdio>
-#include<cstring>
 using namespace std;
 
 const int maxn = 1e4+100;

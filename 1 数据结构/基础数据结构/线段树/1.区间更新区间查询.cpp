@@ -15,7 +15,7 @@ LL a[maxn];
 struct Seg_Tree{
 	Tree tree[maxn<<2];
 	void pushup(int o,int l,int r){
-		tree[o].min = min(tree[lson].min,tree[rson].max);
+		tree[o].min = min(tree[lson].min,tree[rson].min);
 		tree[o].max = max(tree[lson].max,tree[rson].max);
 		tree[o].sum = tree[lson].sum + tree[rson].sum;
 	}

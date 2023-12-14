@@ -25,7 +25,6 @@ struct Dinic{
    int n,m,s,t;
    vector<Edge> edges;
    vector<int> G[LEN];
-   int a[LEN];
    int vis[LEN];
    int d[LEN];
    int cur[LEN];//好吧就是点, 代表该点在一次求增广的过程中搜索到了那条边,意思就是从这条边往下肯定搜索不到结果了

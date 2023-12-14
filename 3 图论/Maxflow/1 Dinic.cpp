@@ -1,23 +1,5 @@
 // dinic
-#include <cstdio>//C语言io
-#include <cstring>//以下是c语言常用头文件
-#include <cmath>
-#include <cstdlib>
-#include <ctime>
-#include <cctype>
-#include <cstring>
-#include <cmath>
-#include <iostream>//c++IO
-#include <sstream>
-#include <string>
-#include <list>//c++常用容器
-#include <vector>
-#include <set>
-#include <map>
-#include <queue>
-#include <stack>
-#include <algorithm>//c++泛型的一些函数
-#include <functional>//用来提供一些模版
+#include<bits/stdc++.h>
 #define fo0(i,n) for(int i = 0;i < n; ++i)
 #define fo1(i,n) for(int i = 1;i <= n; ++i)
 #define mem(ar,num) memset(ar,num,sizeof(ar))

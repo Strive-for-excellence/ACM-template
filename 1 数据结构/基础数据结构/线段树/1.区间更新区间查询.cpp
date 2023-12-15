@@ -1,4 +1,4 @@
-测试地址
+// 测试地址
 // https://www.luogu.org/problemnew/show/P3372
 
 #include<bits/stdc++.h>
@@ -55,6 +55,9 @@ struct Seg_Tree{
 		}
 	}
 	void update(int o,int l,int r,int L,int R,int v){
+        if(l != r)
+        	pushdown(o,l,r);
+
 		if(L <= l && R >= r){
 			tree[o].add += v;
 			tree[o].sum += (r-l+1)*v;
@@ -62,7 +65,6 @@ struct Seg_Tree{
 			tree[o].min += v;
 			return ;
 		}
-		pushdown(o,l,r);
 		int m = (l+r)/2;
 		if(L <= m)
 			update(lson,l,m,L,R,v);
@@ -71,14 +73,15 @@ struct Seg_Tree{
 		pushup(o,l,r);
 	}
 	Tree query(int o,int l,int r,int L,int R){
-		
+		if(l != r)
+        	pushdown(o,l,r);
+
 		if(L <= l && R >= r)
 		{
 			return tree[o];
 		}
 		Tree tmp;
 		tmp.min = INF,tmp.max = -INF,tmp.sum = 0;
-		pushdown(o,l,r);
 		int m = (l+r)>>1;
 		if(L <= m)
 			up(tmp,query(lson,l,m,L,R));

@@ -11,7 +11,6 @@ typedef long long LL;
 struct Tree{
 	LL min,max,sum,add;
 };
-LL a[maxn];
 struct Seg_Tree{
 	Tree tree[maxn<<2];
 	void pushup(int o,int l,int r){
@@ -92,6 +91,8 @@ struct Seg_Tree{
 	}
 }; 
 Seg_Tree solver; 
+LL a[maxn];
+
 int main(void){
 
 	int N,Q;cin>>N>>Q;

@@ -1,0 +1,13 @@
+from fractions import Fraction
+r = Fraction(input())
+# print(r)
+N = int(input())
+# print(Fraction(N))
+r2 = r - 1 / (Fraction(N) *2)
+
+
+ans = r.limit_denominator(N)
+ans2 = r2.limit_denominator(N)
+if ans2 < ans and 0 <= ans2 <= 1 and abs(ans - r) >= abs(ans2 - r):
+    ans = ans2
+print(ans.numerator,ans.denominator)
